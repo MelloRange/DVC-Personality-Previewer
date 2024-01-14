@@ -1,5 +1,6 @@
 import {spine} from './spine-webgl'
 import { SpineObject } from './spineObject'
+import auraList from './personality_dictionary_1.2.0.json' assert { type: 'json' };
 
 export class Common {
     static applyProperStyle() {
@@ -34,15 +35,15 @@ export class Common {
         Common.setDragonIllustGrayScale(res_url);
     }
 
-    static setAuraFront(res_url){
+    static setAuraFront(res_url, aura){
         new spine.SpineCanvas(document.getElementById("canvas-aura-front"), {
-            app: new SpineObject(res_url, "aura_s_xmas_a")
+            app: new SpineObject(res_url, auraList[aura]["front"])
         })
     }
 
-    static setAuraBack(res_url){
+    static setAuraBack(res_url, aura){
         new spine.SpineCanvas(document.getElementById("canvas-aura-back"), {
-            app: new SpineObject(res_url, "aura_s_xmas_a")
+            app: new SpineObject(res_url, auraList[aura]["back"])
         })
     }
 }

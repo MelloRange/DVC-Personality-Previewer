@@ -33,16 +33,47 @@ body {
   background-size: 100%;
   width: 100%;
   height: 100%;
-  padding: 5%;
+  padding: 1% 2%;
+  position: absolute;
+}
+/* ------------------------------------------------------------------------ */
+/* Text Size */
+
+@media screen and (min-width: 1000px) {
+  .textSizeLarge {
+      font-size: 40px;
+  }
+
+  .textSizeMedium {
+      font-size: 30px;
+  }
+
+  .textSizeSmall {
+      font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .textSizeLarge {
+      font-size: 4vw;
+  }
+
+  .textSizeMedium {
+      font-size: 3vw;
+  }
+
+  .textSizeSmall {
+      font-size: 2vw;
+  }
 }
 
 /* ------------------------------------------------------------------------ */
 /* Title */
 
-.titileLogo img {
-  max-width: 35%;
-  max-height: 100px;
-  height: auto;
+.title img {
+  max-width: 20%;
+  max-height: 20%;
+  margin: 0;
 }
 
 /* ------------------------------------------------------------------------ */
@@ -60,13 +91,20 @@ body {
 
 /* ------------------------------------------------------------------------ */
 /* Dragon Field */
+.alignCenter {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
 
 .dragonCenter {
   margin-top: 15%;
-}
-
-.dragonField {
   position: relative;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dragonField img {
@@ -74,16 +112,25 @@ body {
   max-height: 450px;
   width: auto;
   height: auto;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
-.drgaonDot {
+
+.dragonDot {
   width: 80%;
   height: 80%;
 
   position: absolute;
-  bottom: 55%;
-  left: 50%;
-  transform: translate(-50%, 0%);
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .drgaonEgg {
@@ -112,23 +159,57 @@ body {
 }
 
 .spineCanvas {
-  width: 65%;
+  width: 100%;
   height: 100%;
+  min-width: 700px;
+  min-height: 800px;
 
   position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -15%); /* 50 -> 15 */
+  margin-left: auto;
+  margin-right: auto;
+  top: -60%;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .auraBackCanvas {
-  z-index: -1;
+  z-index: 2;
 }
 
 .dragonCanvas {
-  z-index: 0;
+  z-index: 3;
 }
 
 .auraFrontCanvas {
-  z-index: 1;
+  z-index: 4;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Dragon Main Name Tag */
+
+.dragonNicknameContainer {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.textHoverImage {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.dragonNickname {
+  display: block;
+  color: #FFFFFF;
+  white-space: nowrap;
 }

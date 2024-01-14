@@ -1,0 +1,270 @@
+{
+	"Hardy" : {
+		"back" : "aura_b_darkbrown",
+		"front" : ""
+	},
+	"Calm" : {
+		"back" : "aura_b_brown",
+		"front" : ""
+	},
+	"Brave" : {
+		"back" : "aura_b_red",
+		"front" : ""
+	},
+	"Hasty" : {
+		"back" : "aura_b_orangered",
+		"front" : ""
+	},
+	"Rash" : {
+		"back" : "aura_b_orange",
+		"front" : ""
+	},
+	"Naive" : {
+		"back" : "aura_b_yellow",
+		"front" : ""
+	},
+	"QuickWitted" : {
+		"back" : "aura_b_yellowgreen",
+		"front" : ""
+	},
+	"Docile" : {
+		"back" : "aura_b_green",
+		"front" : ""
+	},
+	"Smart" : {
+		"back" : "aura_b_mint",
+		"front" : ""
+	},
+	"Bold" : {
+		"back" : "aura_b_sky",
+		"front" : ""
+	},
+	"Quiet" : {
+		"back" : "aura_b_blue",
+		"front" : ""
+	},
+	"Adamant" : {
+		"back" : "aura_b_navy",
+		"front" : ""
+	},
+	"Careful" : {
+		"back" : "aura_b_black",
+		"front" : ""
+	},
+	"Bashful" : {
+		"back" : "aura_b_whight",
+		"front" : ""
+	},
+	"Lax" : {
+		"back" : "aura_b_pink",
+		"front" : ""
+	},
+	"Quirky" : {
+		"back" : "aura_b_purple",
+		"front" : ""
+	},
+	"Dull" : {
+		"back" : "aura_a_babyblue",
+		"front" : "a"
+	},
+	"Serious" : {
+		"back" : "aura_a_lapislazuli",
+		"front" : "a"
+	},
+	"Fearful" : {
+		"back" : "aura_a_mint",
+		"front" : "a"
+	},
+	"Lonely" : {
+		"back" : "aura_a_lavender",
+		"front" : "a"
+	},
+	"Arrogant" : {
+		"back" : "aura_a_red",
+		"front" : "a"
+	},
+	"Charming" : {
+		"back" : "aura_a_yellow",
+		"front" : "a"
+	},
+	"Timid" : {
+		"back" : "aura_a_orange",
+		"front" : "a"
+	},
+	"Lovely" : {
+		"back" : "aura_a_babypink",
+		"front" : "a"
+	},
+	"Silent" : {
+		"back" : "aura_a2_darkblue",
+		"front" : "a2"
+	},
+	"Solitary" : {
+		"back" : "aura_a2_warmgray",
+		"front" : "a2"
+	},
+	"Dawn" : {
+		"back" : "aura_a2_white",
+		"front" : "a2_whitegold"
+	},
+	"Clumsy" : {
+		"back" : "aura_a2_purple",
+		"front" : "a2"
+	},
+	"Introvert" : {
+		"back" : "aura_a2_red",
+		"front" : "a2"
+	},
+	"Somber" : {
+		"back" : "aura_a2_brown",
+		"front" : "a2_copper"
+	},
+	"Cheerful" : {
+		"back" : "aura_a2_orange",
+		"front" : "a2"
+	},
+	"Curious" : {
+		"back" : "aura_a2_green",
+		"front" : "a2"
+	},
+	"Extroverted" : {
+		"back" : "aura_s_prism",
+		"front" : "aura_s_prism"
+	},
+	"Lousy" : {
+		"back" : "aura_a_navypurple",
+		"front" : "a3_purple"
+	},
+	"Meticulous" : {
+		"back" : "aura_a_blacknavy",
+		"front" : "a3_blue"
+	},
+	"Sociable" : {
+		"back" : "aura_a_pastelpink",
+		"front" : "a3_purple"
+	},
+	"Frail" : {
+		"back" : "aura_s_blackgreen",
+		"front" : "aura_s_blackgreen"
+	},
+	"Wild" : {
+		"back" : "aura_s_blackred",
+		"front" : "aura_s_blackred"
+	},
+	"Capable" : {
+		"back" : "aura_s_bluelight",
+		"front" : "aura_s_bluelight"
+	},
+	"Lunatic" : {
+		"back" : "aura_s_purplelight",
+		"front" : "aura_s_purplelight"
+	},
+	"Elegant" : {
+		"back" : "aura_s_blackhole",
+		"front" : "aura_s_star"
+	},
+	"Distracted" : {
+		"back" : "aura_s_mint",
+		"front" : "aura_s_champion2"
+	},
+	"Perfectionist" : {
+		"back" : "aura_s_universe1",
+		"front" : "aura_s_universe1"
+	},
+	"Immersed" : {
+		"back" : "aura_s_universe2",
+		"front" : "aura_s_universe2"
+	},
+	"Classy" : {
+		"back" : "aura_s_pearl",
+		"front" : "aura_s_pearl"
+	},
+	"Noble" : {
+		"back" : "aura_s_star",
+		"front" : "aura_s_star2"
+	},
+	"Pure" : {
+		"back" : "aura_s_transparent",
+		"front" : "aura_s_transparent"
+	},
+	"Neat" : {
+		"back" : "aura_s_transparent3",
+		"front" : "aura_s_star"
+	},
+	"BlueMoon" : {
+		"back" : "aura_s_moon_blue",
+		"front" : "aura_s_transparent_blue"
+	},
+	"FullMoon" : {
+		"back" : "aura_s_moon_yellow",
+		"front" : "aura_s_transparent_yellow"
+	},
+	"Spooky" : {
+		"back" : "aura_s_halloween_a",
+		"front" : "aura_s_halloween_a"
+	},
+	"Horrendous" : {
+		"back" : "aura_s_halloween_b",
+		"front" : "aura_s_halloween_b"
+	},
+	"BlueMoonFly" : {
+		"back" : "aura_s_moon_blue_fly",
+		"front" : "aura_s_transparent_blue_fly"
+	},
+	"FullMoonFly" : {
+		"back" : "aura_s_moon_yellow_fly",
+		"front" : "aura_s_transparent_yellow_fly"
+	},
+	"SpookyFly" : {
+		"back" : "aura_s_halloween_a_fly",
+		"front" : "aura_s_halloween_a"
+	},
+	"HorrendousFly" : {
+		"back" : "aura_s_halloween_b_fly",
+		"front" : "aura_s_halloween_b"
+	},
+	"Talented" : {
+		"back" : "aura_s_game_a",
+		"front" : "aura_s_game_a"
+	},
+	"Skilled" : {
+		"back" : "aura_s_game_b",
+		"front" : "aura_s_game_b"
+	},
+	"Honorable": {
+		"back" : "aura_s_pvp_a",
+		"front" : "aura_s_pvp_a"
+	},
+	"Glorious": {
+		"back" : "aura_s_pvp_b",
+		"front" : "aura_s_pvp_b"
+	},
+	"Baleful" : {
+		"back" : "aura_s_dark",
+		"front" : "aura_s_dark"
+	},
+	"Apocalyptic" : {
+		"back" : "aura_s_end",
+		"front" : "aura_s_end"
+	},
+	"Mystical" : {
+		"back" : "aura_a2_greenmint",
+		"front" : "a2_l"
+	},
+	"Unknown" : {
+		"back" : "aura_s_universe3",
+		"front" : "aura_s_universe3"
+	},
+	"Christmas" : {
+		"back" : "aura_s_xmas_a",
+		"front" : "aura_s_xmas_a"
+	},
+	"Affable" : {
+		"back" : "aura_s_xmas_b",
+		"front" : "aura_s_xmas_b"
+	},
+	"Wilderness" : {
+		"back" : "aura_s_sunset",
+		"front" : "aura_s_sunset"
+	}
+}
