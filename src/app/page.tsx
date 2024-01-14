@@ -3,10 +3,15 @@
 // import {LinkButtons} from './dvcComponents/linkButtons.js';
 import {Common} from './spineComponents/common.js';
 import { useEffect, useState } from 'react';
+import auraList from './spineComponents/personality_dictionary_1.2.0.json' assert { type: 'json' };
+import Select from 'react-select'
+
+let auraOptions = Object.keys(auraList).sort().map((personality) => ({value: personality, label: personality}));
+console.log(auraOptions)
 
 export default function Home() {
-  const [dragon, setDragon] = useState("/res/abaddon_01_f_adult_p/abaddon_01_f_adult_p");
-  const [aura, setAura] = useState("Apocalyptic");
+  const [dragon, setDragon] = useState<string>("/res/abaddon_01_f_adult_p/abaddon_01_f_adult_p");
+  const [aura, setAura] = useState<string>("Apocalyptic");
 
   function onLoad()
   {
@@ -24,12 +29,21 @@ export default function Home() {
   }
 
   useEffect(() => {
-    // call api or anything
     onLoad();
     loadSpineDragon();
     loadAuraDragon();
-    console.log("loaded");
+    console.log("first load");
   },[]);
+
+  useEffect(() => {
+    loadAuraDragon();
+    console.log("aura reload");
+  },[aura]);
+
+  useEffect(() => {
+    loadSpineDragon();
+    console.log("dragon reload");
+  },[dragon]);
 
   return (
       <div id= 'root' className='background flex-col'>
@@ -46,10 +60,20 @@ export default function Home() {
             </div>
             <div className="dragonNicknameContainer">
 						  <img className="alignCenter" src="https://res.dvc.land/dvc-web/res/name.png" alt=""></img>
-						  <div className="alignCenter dragonNickname textHoverImage textSizeMedium">{dragon}</div>
+						  <div className="alignCenter dragonNickname textHoverImage textSizeMedium">{aura + " " + dragon}</div>
 					  </div>
           </div>
+
         </div>
+
+        <Select options={auraOptions}
+          className="scoot"
+          onChange={(option: Option | null, actionMeta: ActionMeta<Option>) => {setAura(option.value);}}
+          defaultValue={{value: "Apocalyptic", label: "Apocalyptic"}}
+          isSearchable
+          isClearable
+          
+           />
       </div>
   )
 }

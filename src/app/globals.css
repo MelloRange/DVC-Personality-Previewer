@@ -213,3 +213,8 @@ body {
   color: #FFFFFF;
   white-space: nowrap;
 }
+
+.scoot{
+  position: absolute;
+  top: -30%
+}
