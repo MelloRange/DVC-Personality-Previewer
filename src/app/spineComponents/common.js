@@ -23,26 +23,26 @@ export class Common {
         }
     }
 
-    static setDragonSpineOrImage(res_url) {
+    static setDragonSpineOrImage(res_url, dragCanvasId) {
         if (res_url.includes(".png")) {
             document.getElementById("dragon-image").src = res_url
         }
         else {
-            new spine.SpineCanvas(document.getElementById("canvas-dragon"), {
+            new spine.SpineCanvas(document.getElementById(dragCanvasId), {
                 app: new SpineObject(res_url, "idle")
             })
         }
         Common.setDragonIllustGrayScale(res_url);
     }
 
-    static setAuraFront(res_url, aura){
-        new spine.SpineCanvas(document.getElementById("canvas-aura-front"), {
+    static setAuraFront(res_url, aura, auraCanvasId){
+        new spine.SpineCanvas(document.getElementById(auraCanvasId), {
             app: new SpineObject(res_url, auraList[aura]["front"])
         })
     }
 
-    static setAuraBack(res_url, aura){
-        new spine.SpineCanvas(document.getElementById("canvas-aura-back"), {
+    static setAuraBack(res_url, aura, auraCanvasId){
+        new spine.SpineCanvas(document.getElementById( auraCanvasId), {
             app: new SpineObject(res_url, auraList[aura]["back"])
         })
     }
