@@ -4,13 +4,15 @@
 import {Common} from './spineComponents/common.js';
 import { useEffect, useState } from 'react';
 import auraList from './spineComponents/personality_dictionary_1.2.0.json' assert { type: 'json' };
+import dragonList from './spineComponents/dragondict.json' assert { type: 'json' };
 import Select from 'react-select'
 
 let auraOptions = Object.keys(auraList).sort().map((personality) => ({value: personality, label: personality}));
-console.log(auraOptions)
+let dragonOptions = Object.keys(dragonList).map((dragon) => ({value: dragon, label: dragon}));
+
 
 export default function Home() {
-  const [dragon, setDragon] = useState<string>("/res/abaddon_01_f_adult_p/abaddon_01_f_adult_p");
+  const [dragon, setDragon] = useState<string>("abaddon");
   const [aura, setAura] = useState<string>("Apocalyptic");
 
   function onLoad()
@@ -20,7 +22,7 @@ export default function Home() {
   }
 
   function loadSpineDragon() {
-    Common.setDragonSpineOrImage(dragon);
+    Common.setDragonSpineOrImage("/res/" + dragonList[dragon]["01"]["f"] + "/" + dragonList[dragon]["01"]["f"]);
   }
 
   function loadAuraDragon() {
@@ -50,7 +52,7 @@ export default function Home() {
         <div className="title">
           <img className='' src="https://res.dvc.land/dvc-web/res/logo.png" alt="" />
         </div>
-        <div className='dragonCenter'> {/* this pads from top of page */}
+        <div className='dragonCenter flex'> {/* this pads from top of page */}
           <div className='dragonField'>
             <img className='' src="https://res.dvc.land/dvc-web/res/table.png"  alt=""></img>
             <div className='dragonDot alignCenter'>
@@ -60,7 +62,7 @@ export default function Home() {
             </div>
             <div className="dragonNicknameContainer">
 						  <img className="alignCenter" src="https://res.dvc.land/dvc-web/res/name.png" alt=""></img>
-						  <div className="alignCenter dragonNickname textHoverImage textSizeMedium">{aura + " " + dragon}</div>
+						  <div className="alignCenter dragonNickname textHoverImage textSizeMedium">{aura + " " + dragon.charAt(0).toUpperCase() + dragon.slice(1)}</div>
 					  </div>
           </div>
 
@@ -70,6 +72,15 @@ export default function Home() {
           className="scoot"
           onChange={(option: Option | null, actionMeta: ActionMeta<Option>) => {setAura(option.value);}}
           defaultValue={{value: "Apocalyptic", label: "Apocalyptic"}}
+          isSearchable
+          isClearable
+          
+           />
+
+        <Select options={dragonOptions}
+          className="scoot"
+          onChange={(option: Option | null, actionMeta: ActionMeta<Option>) => {setDragon(option.value);}}
+          defaultValue={{value: "abaddon", label: "abaddon"}}
           isSearchable
           isClearable
           

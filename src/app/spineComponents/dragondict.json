@@ -1,0 +1,2346 @@
+{
+  "abaddon": {
+    "01": {
+      "f": "abaddon_01_f_adult_p",
+      "m": "abaddon_01_m_adult_p"
+    },
+    "02": {
+      "f": "abaddon_02_f_adult_p",
+      "m": "abaddon_02_m_adult_p"
+    }
+  },
+  "abvalle": {
+    "01": {
+      "f": "abvalle_01_f_adult_w",
+      "m": "abvalle_01_m_adult_w"
+    }
+  },
+  "abyssedge": {
+    "01": {
+      "f": "abyssedge_01_f_adult_bk",
+      "m": "abyssedge_01_m_adult_bk"
+    },
+    "02": {
+      "f": "abyssedge_02_f_adult_bk",
+      "m": "abyssedge_02_m_adult_bk"
+    }
+  },
+  "adela": {
+    "01": {
+      "f": "adela_01_f_adult_w",
+      "m": "adela_01_m_adult_w"
+    }
+  },
+  "aegis": {
+    "01": {
+      "f": "aegis_01_f_adult_y",
+      "m": "aegis_01_m_adult_y"
+    }
+  },
+  "afrit": {
+    "01": {
+      "f": "afrit_01_f_adult_r",
+      "m": "afrit_01_m_adult_r"
+    }
+  },
+  "agnad": {
+    "01": {
+      "f": "agnad_01_f_adult_r",
+      "m": "agnad_01_m_adult_r"
+    }
+  },
+  "alien": {
+    "01": {
+      "f": "alien_01_f_adult_w",
+      "m": "alien_01_m_adult_w"
+    },
+    "02": {
+      "n": "alien_02_n_adult_r"
+    }
+  },
+  "anemone": {
+    "01": {
+      "f": "anemone_01_f_adult_yr",
+      "m": "anemone_01_m_adult_yr"
+    }
+  },
+  "angelcat": {
+    "01": {
+      "f": "angelcat_01_f_adult_w",
+      "m": "angelcat_01_m_adult_w"
+    },
+    "02": {
+      "f": "angelcat_02_f_adult_w",
+      "m": "angelcat_02_m_adult_w"
+    },
+    "03": {
+      "f": "angelcat_03_f_adult_bk",
+      "m": "angelcat_03_m_adult_bk"
+    },
+    "04": {
+      "f": "angelcat_04_f_adult_g",
+      "m": "angelcat_04_m_adult_g"
+    },
+    "05": {
+      "f": "angelcat_05_f_adult_yr",
+      "m": "angelcat_05_m_adult_yr"
+    }
+  },
+  "angeljr": {
+    "01": {
+      "f": "angeljr_01_f_adult_w"
+    }
+  },
+  "angel": {
+    "01": {
+      "f": "angel_01_f_adult_w",
+      "m": "angel_01_m_adult_w"
+    },
+    "02": {
+      "f": "angel_02_f_adult_w"
+    }
+  },
+  "angra": {
+    "01": {
+      "f": "angra_01_f_adult_r",
+      "m": "angra_01_m_adult_r"
+    },
+    "02": {
+      "f": "angra_02_f_adult_bk",
+      "m": "angra_02_m_adult_bk"
+    }
+  },
+  "animala": {
+    "01": {
+      "f": "animala_01_f_adult_bk",
+      "m": "animala_01_m_adult_bk"
+    }
+  },
+  "applecheek": {
+    "01": {
+      "f": "applecheek_01_f_adult_gy",
+      "m": "applecheek_01_m_adult_gy"
+    },
+    "02": {
+      "f": "applecheek_02_f_adult_r",
+      "m": "applecheek_02_m_adult_r"
+    }
+  },
+  "artemis": {
+    "01": {
+      "f": "artemis_01_f_adult_b",
+      "m": "artemis_01_m_adult_b"
+    },
+    "02": {
+      "f": "artemis_02_f_adult_pb",
+      "m": "artemis_02_m_adult_pb"
+    }
+  },
+  "asti": {
+    "01": {
+      "f": "asti_01_f_adult_w",
+      "m": "asti_01_m_adult_w"
+    },
+    "02": {
+      "f": "asti_02_f_adult_p",
+      "m": "asti_02_m_adult_p"
+    }
+  },
+  "azak": {
+    "01": {
+      "f": "azak_01_f_adult_b",
+      "m": "azak_01_m_adult_b"
+    },
+    "02": {
+      "f": "azak_02_f_adult_g",
+      "m": "azak_02_m_adult_g"
+    }
+  },
+  "baal": {
+    "01": {
+      "f": "baal_01_f_adult_pb",
+      "m": "baal_01_m_adult_pb"
+    }
+  },
+  "baekho": {
+    "01": {
+      "f": "baekho_01_f_adult_w",
+      "m": "baekho_01_m_adult_w"
+    }
+  },
+  "bagma": {
+    "01": {
+      "f": "bagma_01_f_adult_w",
+      "m": "bagma_01_m_adult_w"
+    }
+  },
+  "banshee": {
+    "01": {
+      "f": "banshee_01_f_adult_b",
+      "m": "banshee_01_m_adult_b"
+    }
+  },
+  "beardeddragon": {
+    "01": {
+      "f": "beardeddragon_01_f_adult_w",
+      "m": "beardeddragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "beardeddragon_02_f_adult_bk",
+      "m": "beardeddragon_02_m_adult_bk"
+    },
+    "03": {
+      "f": "beardeddragon_03_f_adult_b",
+      "m": "beardeddragon_03_m_adult_b"
+    },
+    "04": {
+      "f": "beardeddragon_04_f_adult_y",
+      "m": "beardeddragon_04_m_adult_y"
+    },
+    "05": {
+      "f": "beardeddragon_05_f_adult_yr",
+      "m": "beardeddragon_05_m_adult_yr"
+    }
+  },
+  "beleth": {
+    "01": {
+      "f": "beleth_01_f_adult_bk",
+      "m": "beleth_01_m_adult_bk"
+    }
+  },
+  "berris": {
+    "01": {
+      "f": "berris_01_f_adult_w",
+      "m": "berris_01_m_adult_w"
+    }
+  },
+  "blackarmorspear": {
+    "01": {
+      "f": "blackarmorspear_01_f_adult_bk",
+      "m": "blackarmorspear_01_m_adult_bk"
+    }
+  },
+  "blackarmorsword": {
+    "01": {
+      "f": "blackarmorsword_01_f_adult_bk",
+      "m": "blackarmorsword_01_m_adult_bk"
+    }
+  },
+  "blackarmor": {
+    "01": {
+      "f": "blackarmor_01_f_adult_p",
+      "m": "blackarmor_01_m_adult_p"
+    }
+  },
+  "blackdragon": {
+    "01": {
+      "m": "blackdragon_01_m_adult_bk"
+    }
+  },
+  "bladedragon": {
+    "01": {
+      "f": "bladedragon_01_f_adult_b",
+      "m": "bladedragon_01_m_adult_b"
+    }
+  },
+  "bluebirdberris": {
+    "01": {
+      "f": "bluebirdberris_01_f_adult_b",
+      "m": "bluebirdberris_01_m_adult_b"
+    }
+  },
+  "bluecharacen": {
+    "01": {
+      "f": "bluecharacen_01_f_adult_b",
+      "m": "bluecharacen_01_m_adult_b"
+    }
+  },
+  "bluefiretail": {
+    "01": {
+      "f": "bluefiretail_01_f_adult_b",
+      "m": "bluefiretail_01_m_adult_b"
+    }
+  },
+  "bluelightning": {
+    "01": {
+      "f": "bluelightning_01_f_adult_b",
+      "m": "bluelightning_01_m_adult_b"
+    }
+  },
+  "bluethunder": {
+    "01": {
+      "f": "bluethunder_01_f_adult_bk",
+      "m": "bluethunder_01_m_adult_bk"
+    }
+  },
+  "blue": {
+    "01": {
+      "f": "blue_01_f_adult_b",
+      "m": "blue_01_m_adult_b"
+    }
+  },
+  "bomberdragon": {
+    "01": {
+      "f": "bomberdragon_01_f_adult_bk",
+      "m": "bomberdragon_01_m_adult_bk"
+    },
+    "02": {
+      "f": "bomberdragon_02_f_adult_bk",
+      "m": "bomberdragon_02_m_adult_bk"
+    }
+  },
+  "bonehead": {
+    "01": {
+      "f": "bonehead_01_f_adult_r",
+      "m": "bonehead_01_m_adult_r"
+    },
+    "02": {
+      "f": "bonehead_02_f_adult_p",
+      "m": "bonehead_02_m_adult_p"
+    }
+  },
+  "catsgon": {
+    "01": {
+      "f": "catsgon_01_f_adult_p",
+      "m": "catsgon_01_m_adult_p"
+    },
+    "02": {
+      "f": "catsgon_02_f_adult_bk",
+      "m": "catsgon_02_m_adult_bk"
+    }
+  },
+  "centipededragon": {
+    "01": {
+      "f": "centipededragon_01_f_adult_p",
+      "m": "centipededragon_01_m_adult_p"
+    }
+  },
+  "centura": {
+    "01": {
+      "f": "centura_01_f_adult_pb",
+      "m": "centura_01_m_adult_pb"
+    },
+    "02": {
+      "f": "centura_02_f_adult_p",
+      "m": "centura_02_m_adult_p"
+    }
+  },
+  "characen": {
+    "01": {
+      "f": "characen_01_f_adult_y",
+      "m": "characen_01_m_adult_y"
+    }
+  },
+  "chungmuhaetae": {
+    "01": {
+      "f": "chungmuhaetae_01_f_adult_b",
+      "m": "chungmuhaetae_01_m_adult_b"
+    }
+  },
+  "citael": {
+    "01": {
+      "n": "citael_01_n_adult_w"
+    }
+  },
+  "clavis": {
+    "01": {
+      "f": "clavis_01_f_adult_w",
+      "m": "clavis_01_m_adult_w"
+    },
+    "02": {
+      "f": "clavis_02_f_adult_w",
+      "m": "clavis_02_m_adult_w"
+    },
+    "03": {
+      "f": "clavis_03_f_adult_g",
+      "m": "clavis_03_m_adult_g"
+    },
+    "04": {
+      "f": "clavis_04_f_adult_rp",
+      "m": "clavis_04_m_adult_rp"
+    },
+    "05": {
+      "f": "clavis_05_f_adult_b",
+      "m": "clavis_05_m_adult_b"
+    },
+    "06": {
+      "f": "clavis_06_f_adult_r",
+      "m": "clavis_06_m_adult_r"
+    }
+  },
+  "clockworkdragon": {
+    "01": {
+      "f": "clockworkdragon_01_f_adult_bk",
+      "m": "clockworkdragon_01_m_adult_bk"
+    }
+  },
+  "cloud": {
+    "01": {
+      "f": "cloud_01_f_adult_b",
+      "m": "cloud_01_m_adult_b"
+    }
+  },
+  "cobradragon": {
+    "01": {
+      "f": "cobradragon_01_f_adult_b",
+      "m": "cobradragon_01_m_adult_b"
+    }
+  },
+  "cresteddragon": {
+    "01": {
+      "f": "cresteddragon_01_f_adult_y",
+      "m": "cresteddragon_01_m_adult_y"
+    },
+    "02": {
+      "f": "cresteddragon_02_f_adult_w",
+      "m": "cresteddragon_02_m_adult_w"
+    },
+    "03": {
+      "f": "cresteddragon_03_f_adult_yr",
+      "m": "cresteddragon_03_m_adult_yr"
+    },
+    "04": {
+      "f": "cresteddragon_04_f_adult_w",
+      "m": "cresteddragon_04_m_adult_w"
+    }
+  },
+  "crookers": {
+    "01": {
+      "f": "crookers_01_f_adult_r",
+      "m": "crookers_01_m_adult_r"
+    }
+  },
+  "cupid": {
+    "01": {
+      "f": "cupid_01_f_adult_rp",
+      "m": "cupid_01_m_adult_rp"
+    }
+  },
+  "cupifriend": {
+    "01": {
+      "f": "cupifriend_01_f_adult_g",
+      "m": "cupifriend_01_m_adult_g"
+    },
+    "02": {
+      "f": "cupifriend_02_f_adult_g",
+      "m": "cupifriend_02_m_adult_g"
+    },
+    "03": {
+      "f": "cupifriend_03_f_adult_g",
+      "m": "cupifriend_03_m_adult_g"
+    }
+  },
+  "dargos": {
+    "01": {
+      "f": "dargos_01_f_adult_r",
+      "m": "dargos_01_m_adult_r"
+    }
+  },
+  "darkangeldragon": {
+    "01": {
+      "f": "darkangeldragon_01_f_adult_w",
+      "m": "darkangeldragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "darkangeldragon_02_f_adult_w"
+    }
+  },
+  "darkcloud": {
+    "01": {
+      "f": "darkcloud_01_f_adult_bk",
+      "m": "darkcloud_01_m_adult_bk"
+    }
+  },
+  "darkgoddragon": {
+    "01": {
+      "f": "darkgoddragon_01_f_adult_w",
+      "m": "darkgoddragon_01_m_adult_w"
+    }
+  },
+  "darklightningdragon": {
+    "01": {
+      "f": "darklightningdragon_01_f_adult_bk",
+      "m": "darklightningdragon_01_m_adult_bk"
+    }
+  },
+  "darknix": {
+    "01": {
+      "f": "darknix_01_f_adult_r",
+      "m": "darknix_01_m_adult_r"
+    }
+  },
+  "daros": {
+    "01": {
+      "f": "daros_01_f_adult_y",
+      "m": "daros_01_m_adult_y"
+    }
+  },
+  "demonggargoyle": {
+    "01": {
+      "f": "demonggargoyle_01_f_adult_g",
+      "m": "demonggargoyle_01_m_adult_g"
+    },
+    "02": {
+      "f": "demonggargoyle_02_f_adult_g",
+      "m": "demonggargoyle_02_m_adult_g"
+    }
+  },
+  "demonio": {
+    "01": {
+      "f": "demonio_01_f_adult_r",
+      "m": "demonio_01_m_adult_r"
+    }
+  },
+  "devared": {
+    "01": {
+      "m": "devared_01_m_adult_r"
+    }
+  },
+  "deva": {
+    "01": {
+      "m": "deva_01_m_adult_bk"
+    },
+    "02": {
+      "m": "deva_02_m_adult_g"
+    }
+  },
+  "devilgon": {
+    "01": {
+      "f": "devilgon_01_f_adult_r",
+      "m": "devilgon_01_m_adult_r"
+    }
+  },
+  "dianu": {
+    "01": {
+      "f": "dianu_01_f_adult_pb",
+      "m": "dianu_01_m_adult_pb"
+    },
+    "02": {
+      "f": "dianu_02_f_adult_pb",
+      "m": "dianu_02_m_adult_pb"
+    },
+    "03": {
+      "f": "dianu_03_f_adult_w",
+      "m": "dianu_03_m_adult_w"
+    }
+  },
+  "dimensiondragon": {
+    "01": {
+      "f": "dimensiondragon_01_f_adult_w",
+      "m": "dimensiondragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "dimensiondragon_02_f_adult_w",
+      "m": "dimensiondragon_02_m_adult_w"
+    }
+  },
+  "diyona": {
+    "01": {
+      "f": "diyona_01_f_adult_y",
+      "m": "diyona_01_m_adult_y"
+    }
+  },
+  "dragonoidsoul": {
+    "01": {
+      "f": "dragonoidsoul_01_f_adult_bg",
+      "m": "dragonoidsoul_01_m_adult_bg"
+    }
+  },
+  "dragonoid": {
+    "01": {
+      "f": "dragonoid_01_f_adult_bg",
+      "m": "dragonoid_01_m_adult_bg"
+    }
+  },
+  "dreamerobex": {
+    "01": {
+      "f": "dreamerobex_01_f_adult_rp",
+      "m": "dreamerobex_01_m_adult_rp"
+    }
+  },
+  "dreamwaterdragon": {
+    "01": {
+      "f": "dreamwaterdragon_01_f_adult_p",
+      "m": "dreamwaterdragon_01_m_adult_p"
+    }
+  },
+  "dupen": {
+    "01": {
+      "f": "dupen_01_f_adult_yr",
+      "m": "dupen_01_m_adult_yr"
+    }
+  },
+  "eelosdragon": {
+    "01": {
+      "f": "eelosdragon_01_f_adult_bg",
+      "m": "eelosdragon_01_m_adult_bg"
+    }
+  },
+  "egg": {
+    "01": {
+      "f": "egg_01_f_adult_b",
+      "m": "egg_01_m_adult_b"
+    },
+    "02": {
+      "m": "egg_02_m_adult_r"
+    }
+  },
+  "elderlydragon": {
+    "01": {
+      "f": "elderlydragon_01_f_adult_w",
+      "m": "elderlydragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "elderlydragon_02_f_adult_bg",
+      "m": "elderlydragon_02_m_adult_bg"
+    }
+  },
+  "emerald": {
+    "01": {
+      "f": "emerald_01_f_adult_g",
+      "m": "emerald_01_m_adult_g"
+    }
+  },
+  "enokidragon": {
+    "01": {
+      "f": "enokidragon_01_f_adult_w",
+      "m": "enokidragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "enokidragon_02_f_adult_y",
+      "m": "enokidragon_02_m_adult_y"
+    }
+  },
+  "ereboss": {
+    "01": {
+      "f": "ereboss_01_f_adult_b",
+      "m": "ereboss_01_m_adult_b"
+    }
+  },
+  "eshu": {
+    "01": {
+      "f": "eshu_01_f_adult_gy",
+      "m": "eshu_01_m_adult_gy"
+    },
+    "02": {
+      "f": "eshu_02_f_adult_gy",
+      "m": "eshu_02_m_adult_gy"
+    }
+  },
+  "fat": {
+    "01": {
+      "f": "fat_01_f_adult_bk",
+      "m": "fat_01_m_adult_bk"
+    },
+    "02": {
+      "f": "fat_02_f_adult_bk",
+      "m": "fat_02_m_adult_bk"
+    },
+    "03": {
+      "f": "fat_03_f_adult_bk",
+      "m": "fat_03_m_adult_bk"
+    }
+  },
+  "feros": {
+    "01": {
+      "f": "feros_01_f_adult_w",
+      "m": "feros_01_m_adult_w"
+    },
+    "02": {
+      "f": "feros_02_f_adult_w",
+      "m": "feros_02_m_adult_w"
+    },
+    "03": {
+      "f": "feros_03_f_adult_p",
+      "m": "feros_03_m_adult_p"
+    }
+  },
+  "fides": {
+    "01": {
+      "f": "fides_01_f_adult_bk",
+      "m": "fides_01_m_adult_bk"
+    }
+  },
+  "fireghostdragon": {
+    "01": {
+      "f": "fireghostdragon_01_f_adult_r",
+      "m": "fireghostdragon_01_m_adult_r"
+    }
+  },
+  "firetail": {
+    "01": {
+      "f": "firetail_01_f_adult_w",
+      "m": "firetail_01_m_adult_w"
+    }
+  },
+  "fire": {
+    "01": {
+      "f": "fire_01_f_adult_r",
+      "m": "fire_01_m_adult_r"
+    }
+  },
+  "flamedragon": {
+    "01": {
+      "f": "flamedragon_01_f_adult_r",
+      "m": "flamedragon_01_m_adult_r"
+    }
+  },
+  "florea": {
+    "01": {
+      "f": "florea_01_f_adult_w",
+      "m": "florea_01_m_adult_w"
+    }
+  },
+  "flowerdragon": {
+    "01": {
+      "f": "flowerdragon_01_f_adult_w",
+      "m": "flowerdragon_01_m_adult_w"
+    }
+  },
+  "frame": {
+    "01": {
+      "f": "frame_01_f_adult_bk",
+      "m": "frame_01_m_adult_bk"
+    }
+  },
+  "frankensteindragon": {
+    "01": {
+      "f": "frankensteindragon_01_f_adult_bg",
+      "m": "frankensteindragon_01_m_adult_bg"
+    }
+  },
+  "frog": {
+    "01": {
+      "f": "frog_01_f_adult_g",
+      "m": "frog_01_m_adult_g"
+    },
+    "02": {
+      "f": "frog_02_f_adult_b",
+      "m": "frog_02_m_adult_b"
+    },
+    "03": {
+      "f": "frog_03_f_adult_yr",
+      "m": "frog_03_m_adult_yr"
+    },
+    "04": {
+      "f": "frog_04_f_adult_bg",
+      "m": "frog_04_m_adult_bg"
+    }
+  },
+  "frostbluedragon": {
+    "01": {
+      "f": "frostbluedragon_01_f_adult_b",
+      "m": "frostbluedragon_01_m_adult_b"
+    }
+  },
+  "frost": {
+    "01": {
+      "f": "frost_01_f_adult_b",
+      "m": "frost_01_m_adult_b"
+    }
+  },
+  "gaian": {
+    "01": {
+      "f": "gaian_01_f_adult_w",
+      "m": "gaian_01_m_adult_w"
+    }
+  },
+  "gautlinggon": {
+    "01": {
+      "f": "gautlinggon_01_f_adult_yr",
+      "m": "gautlinggon_01_m_adult_yr"
+    }
+  },
+  "ges": {
+    "01": {
+      "f": "ges_01_f_adult_b",
+      "m": "ges_01_m_adult_b"
+    }
+  },
+  "gigantis": {
+    "01": {
+      "f": "gigantis_01_f_adult_p",
+      "m": "gigantis_01_m_adult_p"
+    }
+  },
+  "girdletaildragon": {
+    "01": {
+      "f": "girdletaildragon_01_f_adult_y",
+      "m": "girdletaildragon_01_m_adult_y"
+    },
+    "02": {
+      "f": "girdletaildragon_02_f_adult_bk",
+      "m": "girdletaildragon_02_m_adult_bk"
+    },
+    "03": {
+      "f": "girdletaildragon_03_f_adult_yr",
+      "m": "girdletaildragon_03_m_adult_yr"
+    },
+    "04": {
+      "f": "girdletaildragon_04_f_adult_w",
+      "m": "girdletaildragon_04_m_adult_w"
+    },
+    "05": {
+      "f": "girdletaildragon_05_f_adult_yr",
+      "m": "girdletaildragon_05_m_adult_yr"
+    }
+  },
+  "glaone": {
+    "01": {
+      "f": "glaone_01_f_adult_bk",
+      "m": "glaone_01_m_adult_bk"
+    }
+  },
+  "goblindragon": {
+    "01": {
+      "f": "goblindragon_01_f_adult_y",
+      "m": "goblindragon_01_m_adult_y"
+    }
+  },
+  "goddragonjr": {
+    "01": {
+      "m": "goddragonjr_01_m_adult_w"
+    }
+  },
+  "goddragon": {
+    "01": {
+      "f": "goddragon_01_f_adult_w",
+      "m": "goddragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "goddragon_02_f_adult_w",
+      "m": "goddragon_02_m_adult_w"
+    }
+  },
+  "goldapplecheek": {
+    "01": {
+      "f": "goldapplecheek_01_f_adult_y",
+      "m": "goldapplecheek_01_m_adult_y"
+    }
+  },
+  "goldenpoisonriver": {
+    "01": {
+      "f": "goldenpoisonriver_01_f_adult_y",
+      "m": "goldenpoisonriver_01_m_adult_y"
+    }
+  },
+  "goldie": {
+    "01": {
+      "f": "goldie_01_f_adult_y",
+      "m": "goldie_01_m_adult_y"
+    }
+  },
+  "goldmetal": {
+    "01": {
+      "f": "goldmetal_01_f_adult_y",
+      "m": "goldmetal_01_m_adult_y"
+    }
+  },
+  "goldpike": {
+    "01": {
+      "n": "goldpike_01_n_adult_r"
+    }
+  },
+  "gold": {
+    "01": {
+      "f": "gold_01_f_adult_yr",
+      "m": "gold_01_m_adult_yr"
+    }
+  },
+  "gorgon": {
+    "01": {
+      "f": "gorgon_01_f_adult_rp",
+      "m": "gorgon_01_m_adult_rp"
+    }
+  },
+  "gracia": {
+    "01": {
+      "f": "gracia_01_f_adult_pb",
+      "m": "gracia_01_m_adult_pb"
+    }
+  },
+  "granos": {
+    "01": {
+      "f": "granos_01_f_adult_w",
+      "m": "granos_01_m_adult_w"
+    }
+  },
+  "griffar": {
+    "01": {
+      "f": "griffar_01_f_adult_g",
+      "m": "griffar_01_m_adult_g"
+    }
+  },
+  "gust": {
+    "01": {
+      "f": "gust_01_f_adult_b",
+      "m": "gust_01_m_adult_b"
+    }
+  },
+  "haetae": {
+    "01": {
+      "f": "haetae_01_f_adult_b",
+      "m": "haetae_01_m_adult_b"
+    }
+  },
+  "hallow": {
+    "01": {
+      "f": "hallow_01_f_adult_g",
+      "m": "hallow_01_m_adult_g"
+    }
+  },
+  "harika": {
+    "01": {
+      "f": "harika_01_f_adult_bg",
+      "m": "harika_01_m_adult_bg"
+    }
+  },
+  "haze": {
+    "01": {
+      "f": "haze_01_f_adult_w",
+      "m": "haze_01_m_adult_w"
+    }
+  },
+  "hedgebatdragon": {
+    "01": {
+      "f": "hedgebatdragon_01_f_adult_bk",
+      "m": "hedgebatdragon_01_m_adult_bk"
+    }
+  },
+  "hela": {
+    "01": {
+      "f": "hela_01_f_adult_w",
+      "m": "hela_01_m_adult_w"
+    },
+    "02": {
+      "f": "hela_02_f_adult_w",
+      "m": "hela_02_m_adult_w"
+    },
+    "03": {
+      "f": "hela_03_f_adult_y",
+      "m": "hela_03_m_adult_y"
+    }
+  },
+  "hell": {
+    "01": {
+      "f": "hell_01_f_adult_r",
+      "m": "hell_01_m_adult_r"
+    }
+  },
+  "henes": {
+    "01": {
+      "f": "henes_01_f_adult_bg",
+      "m": "henes_01_m_adult_bg"
+    }
+  },
+  "herculesdragon": {
+    "01": {
+      "f": "herculesdragon_01_f_adult_bk",
+      "m": "herculesdragon_01_m_adult_bk"
+    },
+    "02": {
+      "f": "herculesdragon_02_f_adult_bk",
+      "m": "herculesdragon_02_m_adult_bk"
+    }
+  },
+  "hourglassdragon": {
+    "01": {
+      "f": "hourglassdragon_01_f_adult_yr",
+      "m": "hourglassdragon_01_m_adult_yr"
+    }
+  },
+  "hurricane": {
+    "01": {
+      "f": "hurricane_01_f_adult_bg",
+      "m": "hurricane_01_m_adult_bg"
+    }
+  },
+  "hydragon": {
+    "01": {
+      "n": "hydragon_01_n_adult_bg"
+    }
+  },
+  "hyeonmu": {
+    "01": {
+      "f": "hyeonmu_01_f_adult_bg",
+      "m": "hyeonmu_01_m_adult_bg"
+    }
+  },
+  "ignis": {
+    "01": {
+      "f": "ignis_01_f_adult_r",
+      "m": "ignis_01_m_adult_r"
+    }
+  },
+  "ilios": {
+    "01": {
+      "f": "ilios_01_f_adult_bk",
+      "m": "ilios_01_m_adult_bk"
+    }
+  },
+  "insectdragon": {
+    "01": {
+      "f": "insectdragon_01_f_adult_y",
+      "m": "insectdragon_01_m_adult_y"
+    }
+  },
+  "insectqueen": {
+    "01": {
+      "f": "insectqueen_01_f_adult_y"
+    }
+  },
+  "irondeva": {
+    "01": {
+      "m": "irondeva_01_m_adult_pb"
+    }
+  },
+  "iron": {
+    "01": {
+      "n": "iron_01_n_adult_r"
+    }
+  },
+  "jango": {
+    "01": {
+      "f": "jango_01_f_adult_yr",
+      "m": "jango_01_m_adult_yr"
+    },
+    "02": {
+      "f": "jango_02_f_adult_yr",
+      "m": "jango_02_m_adult_yr"
+    }
+  },
+  "jarukah": {
+    "01": {
+      "f": "jarukah_01_f_adult_b",
+      "m": "jarukah_01_m_adult_b"
+    }
+  },
+  "jealousycupid": {
+    "01": {
+      "f": "jealousycupid_01_f_adult_r",
+      "m": "jealousycupid_01_m_adult_r"
+    }
+  },
+  "jima": {
+    "01": {
+      "f": "jima_01_f_adult_pb",
+      "m": "jima_01_m_adult_pb"
+    }
+  },
+  "jimon": {
+    "01": {
+      "n": "jimon_01_n_adult_rp"
+    }
+  },
+  "jujag": {
+    "01": {
+      "f": "jujag_01_f_adult_r",
+      "m": "jujag_01_m_adult_r"
+    }
+  },
+  "kangkang": {
+    "01": {
+      "f": "kangkang_01_f_adult_r",
+      "m": "kangkang_01_m_adult_r"
+    }
+  },
+  "karura": {
+    "01": {
+      "f": "karura_01_f_adult_w",
+      "m": "karura_01_m_adult_w"
+    }
+  },
+  "keepergoddragon": {
+    "01": {
+      "f": "keepergoddragon_01_f_adult_w",
+      "m": "keepergoddragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "keepergoddragon_02_f_adult_w",
+      "m": "keepergoddragon_02_m_adult_w"
+    }
+  },
+  "khanmarino": {
+    "01": {
+      "f": "khanmarino_01_f_adult_rp",
+      "m": "khanmarino_01_m_adult_rp"
+    }
+  },
+  "khan": {
+    "01": {
+      "f": "khan_01_f_adult_b",
+      "m": "khan_01_m_adult_b"
+    }
+  },
+  "kirin": {
+    "01": {
+      "f": "kirin_01_f_adult_gy",
+      "m": "kirin_01_m_adult_gy"
+    }
+  },
+  "knightdragon": {
+    "01": {
+      "f": "knightdragon_01_f_adult_b",
+      "m": "knightdragon_01_m_adult_b"
+    }
+  },
+  "kuzmara": {
+    "01": {
+      "f": "kuzmara_01_f_adult_w",
+      "m": "kuzmara_01_m_adult_w"
+    }
+  },
+  "labasalt": {
+    "01": {
+      "f": "labasalt_01_f_adult_bk",
+      "m": "labasalt_01_m_adult_bk"
+    }
+  },
+  "lady": {
+    "01": {
+      "f": "lady_01_f_adult_rp"
+    },
+    "02": {
+      "f": "lady_02_f_adult_rp"
+    },
+    "03": {
+      "f": "lady_03_f_adult_y"
+    }
+  },
+  "lakion": {
+    "01": {
+      "f": "lakion_01_f_adult_yr",
+      "m": "lakion_01_m_adult_yr"
+    }
+  },
+  "lalux": {
+    "01": {
+      "f": "lalux_01_f_adult_r",
+      "m": "lalux_01_m_adult_r"
+    }
+  },
+  "lambgon": {
+    "01": {
+      "f": "lambgon_01_f_adult_y",
+      "m": "lambgon_01_m_adult_y"
+    },
+    "02": {
+      "f": "lambgon_02_f_adult_y",
+      "m": "lambgon_02_m_adult_y"
+    }
+  },
+  "lattegon": {
+    "01": {
+      "f": "lattegon_01_f_adult_yr",
+      "m": "lattegon_01_m_adult_yr"
+    },
+    "02": {
+      "f": "lattegon_02_f_adult_yr",
+      "m": "lattegon_02_m_adult_yr"
+    },
+    "03": {
+      "f": "lattegon_03_f_adult_w",
+      "m": "lattegon_03_m_adult_w"
+    }
+  },
+  "lava": {
+    "01": {
+      "f": "lava_01_f_adult_yr",
+      "m": "lava_01_m_adult_yr"
+    }
+  },
+  "leafdragon": {
+    "01": {
+      "f": "leafdragon_01_f_adult_gy",
+      "m": "leafdragon_01_m_adult_gy"
+    }
+  },
+  "leglien": {
+    "01": {
+      "n": "leglien_01_n_adult_bg"
+    }
+  },
+  "leoparddragon": {
+    "01": {
+      "f": "leoparddragon_01_f_adult_yr",
+      "m": "leoparddragon_01_m_adult_yr"
+    },
+    "02": {
+      "f": "leoparddragon_02_f_adult_y",
+      "m": "leoparddragon_02_m_adult_y"
+    },
+    "03": {
+      "f": "leoparddragon_03_f_adult_w",
+      "m": "leoparddragon_03_m_adult_w"
+    },
+    "04": {
+      "f": "leoparddragon_04_f_adult_bk",
+      "m": "leoparddragon_04_m_adult_bk"
+    }
+  },
+  "leovector": {
+    "01": {
+      "f": "leovector_01_f_adult_pb",
+      "m": "leovector_01_m_adult_pb"
+    }
+  },
+  "libera": {
+    "01": {
+      "f": "libera_01_f_adult_b",
+      "m": "libera_01_m_adult_b"
+    }
+  },
+  "liberte": {
+    "01": {
+      "f": "liberte_01_f_adult_y",
+      "m": "liberte_01_m_adult_y"
+    }
+  },
+  "librodragon": {
+    "01": {
+      "f": "librodragon_01_f_adult_gy",
+      "m": "librodragon_01_m_adult_gy"
+    }
+  },
+  "lichmond": {
+    "01": {
+      "f": "lichmond_01_f_adult_bg",
+      "m": "lichmond_01_m_adult_bg"
+    }
+  },
+  "lightdarknix": {
+    "01": {
+      "f": "lightdarknix_01_f_adult_w",
+      "m": "lightdarknix_01_m_adult_w"
+    }
+  },
+  "lightning": {
+    "01": {
+      "f": "lightning_01_f_adult_r",
+      "m": "lightning_01_m_adult_r"
+    }
+  },
+  "lightspicy": {
+    "01": {
+      "f": "lightspicy_01_f_adult_w",
+      "m": "lightspicy_01_m_adult_w"
+    }
+  },
+  "lololli": {
+    "01": {
+      "f": "lololli_01_f_adult_w",
+      "m": "lololli_01_m_adult_w"
+    }
+  },
+  "lucio": {
+    "01": {
+      "f": "lucio_01_f_adult_p",
+      "m": "lucio_01_m_adult_p"
+    }
+  },
+  "lumindis": {
+    "01": {
+      "f": "lumindis_01_f_adult_b",
+      "m": "lumindis_01_m_adult_b"
+    },
+    "02": {
+      "f": "lumindis_02_f_adult_y",
+      "m": "lumindis_02_m_adult_y"
+    },
+    "03": {
+      "f": "lumindis_03_f_adult_rp",
+      "m": "lumindis_03_m_adult_rp"
+    },
+    "04": {
+      "f": "lumindis_04_f_adult_pb",
+      "m": "lumindis_04_m_adult_pb"
+    },
+    "05": {
+      "f": "lumindis_05_f_adult_g",
+      "m": "lumindis_05_m_adult_g"
+    }
+  },
+  "lunera": {
+    "01": {
+      "f": "lunera_01_f_adult_w",
+      "m": "lunera_01_m_adult_w"
+    },
+    "02": {
+      "f": "lunera_02_f_adult_bk",
+      "m": "lunera_02_m_adult_bk"
+    }
+  },
+  "maga": {
+    "01": {
+      "f": "maga_01_f_adult_bg",
+      "m": "maga_01_m_adult_bg"
+    }
+  },
+  "magnello": {
+    "01": {
+      "f": "magnello_01_f_adult_yr",
+      "m": "magnello_01_m_adult_yr"
+    }
+  },
+  "maldek": {
+    "01": {
+      "f": "maldek_01_f_adult_r",
+      "m": "maldek_01_m_adult_r"
+    }
+  },
+  "maloden": {
+    "01": {
+      "f": "maloden_01_f_adult_w",
+      "m": "maloden_01_m_adult_w"
+    },
+    "02": {
+      "f": "maloden_02_f_adult_g",
+      "m": "maloden_02_m_adult_g"
+    }
+  },
+  "maniacalpowerdragon": {
+    "01": {
+      "f": "maniacalpowerdragon_01_f_adult_yr",
+      "m": "maniacalpowerdragon_01_m_adult_yr"
+    }
+  },
+  "mapledragon": {
+    "01": {
+      "f": "mapledragon_01_f_adult_yr",
+      "m": "mapledragon_01_m_adult_yr"
+    }
+  },
+  "marbas": {
+    "01": {
+      "f": "marbas_01_f_adult_bk",
+      "m": "marbas_01_m_adult_bk"
+    }
+  },
+  "marino": {
+    "01": {
+      "f": "marino_01_f_adult_rp",
+      "m": "marino_01_m_adult_rp"
+    }
+  },
+  "mellow": {
+    "01": {
+      "f": "mellow_01_f_adult_b",
+      "m": "mellow_01_m_adult_b"
+    }
+  },
+  "metal": {
+    "01": {
+      "f": "metal_01_f_adult_bk",
+      "m": "metal_01_m_adult_bk"
+    }
+  },
+  "minas": {
+    "01": {
+      "f": "minas_01_f_adult_bk",
+      "m": "minas_01_m_adult_bk"
+    }
+  },
+  "mistdragon": {
+    "01": {
+      "f": "mistdragon_01_f_adult_b",
+      "m": "mistdragon_01_m_adult_b"
+    }
+  },
+  "mithra": {
+    "01": {
+      "f": "mithra_01_f_adult_b",
+      "m": "mithra_01_m_adult_b"
+    }
+  },
+  "mud": {
+    "01": {
+      "n": "mud_01_n_adult_yr"
+    }
+  },
+  "mummydragon": {
+    "01": {
+      "f": "mummydragon_01_f_adult_g",
+      "m": "mummydragon_01_m_adult_g"
+    }
+  },
+  "mushroomknight": {
+    "01": {
+      "f": "mushroomknight_01_f_adult_b",
+      "m": "mushroomknight_01_m_adult_b"
+    }
+  },
+  "mushroom": {
+    "01": {
+      "f": "mushroom_01_f_adult_b",
+      "m": "mushroom_01_m_adult_yr"
+    },
+    "02": {
+      "f": "mushroom_02_f_adult_p",
+      "m": "mushroom_02_m_adult_yr"
+    }
+  },
+  "mustardhammer": {
+    "01": {
+      "f": "mustardhammer_01_f_adult_y",
+      "m": "mustardhammer_01_m_adult_y"
+    }
+  },
+  "mystictiny": {
+    "01": {
+      "f": "mystictiny_01_f_adult_g",
+      "m": "mystictiny_01_m_adult_g"
+    }
+  },
+  "nebula": {
+    "01": {
+      "n": "nebula_01_n_adult_bk"
+    }
+  },
+  "nello": {
+    "01": {
+      "f": "nello_01_f_adult_p",
+      "m": "nello_01_m_adult_p"
+    }
+  },
+  "neondragon": {
+    "01": {
+      "f": "neondragon_01_f_adult_p",
+      "m": "neondragon_01_m_adult_p"
+    }
+  },
+  "nessiebig": {
+    "01": {
+      "n": "nessiebig_01_n_adult_p"
+    },
+    "02": {
+      "n": "nessiebig_02_n_adult_pb"
+    }
+  },
+  "nessie": {
+    "01": {
+      "f": "nessie_01_f_adult_p",
+      "m": "nessie_01_m_adult_p"
+    }
+  },
+  "nidhogg": {
+    "01": {
+      "f": "nidhogg_01_f_adult_w",
+      "m": "nidhogg_01_m_adult_w"
+    },
+    "02": {
+      "f": "nidhogg_02_f_adult_w",
+      "m": "nidhogg_02_m_adult_w"
+    },
+    "03": {
+      "f": "nidhogg_03_f_adult_r",
+      "m": "nidhogg_03_m_adult_r"
+    }
+  },
+  "nightmarelucio": {
+    "01": {
+      "f": "nightmarelucio_01_f_adult_bk",
+      "m": "nightmarelucio_01_m_adult_bk"
+    }
+  },
+  "ninjadragon": {
+    "01": {
+      "f": "ninjadragon_01_f_adult_p",
+      "m": "ninjadragon_01_m_adult_p"
+    }
+  },
+  "ninja": {
+    "01": {
+      "f": "ninja_01_f_adult_p",
+      "m": "ninja_01_m_adult_p"
+    }
+  },
+  "ninmunia": {
+    "01": {
+      "f": "ninmunia_01_f_adult_p",
+      "m": "ninmunia_01_m_adult_p"
+    },
+    "02": {
+      "f": "ninmunia_02_f_adult_p",
+      "m": "ninmunia_02_m_adult_p"
+    }
+  },
+  "non": {
+    "01": {
+      "f": "non_01_f_adult_bk",
+      "m": "non_01_m_adult_bk"
+    },
+    "02": {
+      "f": "non_02_f_adult_w",
+      "m": "non_02_m_adult_w"
+    },
+    "03": {
+      "f": "non_03_f_adult_w",
+      "m": "non_03_m_adult_w"
+    }
+  },
+  "nox": {
+    "01": {
+      "f": "nox_01_f_adult_bk",
+      "m": "nox_01_m_adult_bk"
+    }
+  },
+  "obex": {
+    "01": {
+      "f": "obex_01_f_adult_r",
+      "m": "obex_01_m_adult_r"
+    }
+  },
+  "oculus": {
+    "01": {
+      "f": "oculus_01_f_adult_b",
+      "m": "oculus_01_m_adult_b"
+    }
+  },
+  "pancakedragon": {
+    "01": {
+      "f": "pancakedragon_01_f_adult_y",
+      "m": "pancakedragon_01_m_adult_y"
+    }
+  },
+  "pangpang": {
+    "01": {
+      "m": "pangpang_01_m_adult_b"
+    }
+  },
+  "party": {
+    "01": {
+      "f": "party_01_f_adult_r",
+      "m": "party_01_m_adult_r"
+    }
+  },
+  "patroa": {
+    "01": {
+      "n": "patroa_01_n_adult_y"
+    },
+    "02": {
+      "n": "patroa_02_n_adult_bg"
+    }
+  },
+  "petra": {
+    "01": {
+      "f": "petra_01_f_adult_bk",
+      "m": "petra_01_m_adult_bk"
+    }
+  },
+  "pharaogon": {
+    "01": {
+      "f": "pharaogon_01_f_adult_y",
+      "m": "pharaogon_01_m_adult_y"
+    }
+  },
+  "phoenix": {
+    "01": {
+      "f": "phoenix_01_f_adult_r",
+      "m": "phoenix_01_m_adult_r"
+    },
+    "02": {
+      "f": "phoenix_02_f_adult_b",
+      "m": "phoenix_02_m_adult_b"
+    },
+    "03": {
+      "f": "phoenix_03_f_adult_bk",
+      "m": "phoenix_03_m_adult_bk"
+    }
+  },
+  "pierrotdragon": {
+    "01": {
+      "f": "pierrotdragon_01_f_adult_w",
+      "m": "pierrotdragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "pierrotdragon_02_f_adult_w",
+      "m": "pierrotdragon_02_m_adult_w"
+    }
+  },
+  "pinkbell": {
+    "01": {
+      "f": "pinkbell_01_f_adult_r",
+      "m": "pinkbell_01_m_adult_r"
+    },
+    "02": {
+      "f": "pinkbell_02_f_adult_y",
+      "m": "pinkbell_02_m_adult_y"
+    },
+    "03": {
+      "f": "pinkbell_03_f_adult_b",
+      "m": "pinkbell_03_m_adult_b"
+    }
+  },
+  "plumos": {
+    "01": {
+      "f": "plumos_01_f_adult_rp",
+      "m": "plumos_01_m_adult_rp"
+    },
+    "02": {
+      "f": "plumos_02_f_adult_rp",
+      "m": "plumos_02_m_adult_rp"
+    },
+    "03": {
+      "f": "plumos_03_f_adult_b",
+      "m": "plumos_03_m_adult_b"
+    },
+    "04": {
+      "f": "plumos_04_f_adult_y",
+      "m": "plumos_04_m_adult_y"
+    },
+    "05": {
+      "f": "plumos_05_f_adult_pb",
+      "m": "plumos_05_m_adult_pb"
+    }
+  },
+  "poisonriver": {
+    "01": {
+      "f": "poisonriver_01_f_adult_p",
+      "m": "poisonriver_01_m_adult_p"
+    }
+  },
+  "popomo": {
+    "01": {
+      "f": "popomo_01_f_adult_r",
+      "m": "popomo_01_m_adult_r"
+    }
+  },
+  "popon": {
+    "01": {
+      "f": "popon_01_f_adult_bg",
+      "m": "popon_01_m_adult_bg"
+    }
+  },
+  "porta": {
+    "01": {
+      "f": "porta_01_f_adult_w",
+      "m": "porta_01_m_adult_w"
+    },
+    "02": {
+      "f": "porta_02_f_adult_w",
+      "m": "porta_02_m_adult_w"
+    },
+    "03": {
+      "f": "porta_03_f_adult_bk",
+      "m": "porta_03_m_adult_bk"
+    }
+  },
+  "power": {
+    "01": {
+      "f": "power_01_f_adult_bk",
+      "m": "power_01_m_adult_bk"
+    },
+    "02": {
+      "f": "power_02_f_adult_bk",
+      "m": "power_02_m_adult_bk"
+    }
+  },
+  "prohibitedwitchdragon": {
+    "01": {
+      "f": "prohibitedwitchdragon_01_f_adult_w",
+      "m": "prohibitedwitchdragon_01_m_adult_w"
+    }
+  },
+  "pureevilnon": {
+    "01": {
+      "f": "pureevilnon_01_f_adult_bk",
+      "m": "pureevilnon_01_m_adult_bk"
+    }
+  },
+  "purewhitefides": {
+    "01": {
+      "f": "purewhitefides_01_f_adult_w",
+      "m": "purewhitefides_01_m_adult_w"
+    }
+  },
+  "purplelips": {
+    "01": {
+      "f": "purplelips_01_f_adult_p",
+      "m": "purplelips_01_m_adult_p"
+    }
+  },
+  "python": {
+    "01": {
+      "f": "python_01_f_adult_bk",
+      "m": "python_01_m_adult_bk"
+    }
+  },
+  "rafael": {
+    "01": {
+      "f": "rafael_01_f_adult_w",
+      "m": "rafael_01_m_adult_p",
+      "n": "rafael_01_n_adult_y"
+    }
+  },
+  "ragnarok": {
+    "01": {
+      "f": "ragnarok_01_f_adult_w",
+      "m": "ragnarok_01_m_adult_w"
+    },
+    "02": {
+      "f": "ragnarok_02_f_adult_w",
+      "m": "ragnarok_02_m_adult_w"
+    }
+  },
+  "rakshasa": {
+    "01": {
+      "f": "rakshasa_01_f_adult_bg",
+      "m": "rakshasa_01_m_adult_bg"
+    },
+    "02": {
+      "f": "rakshasa_02_f_adult_w",
+      "m": "rakshasa_02_m_adult_w"
+    },
+    "03": {
+      "f": "rakshasa_03_f_adult_bk",
+      "m": "rakshasa_03_m_adult_bk"
+    },
+    "04": {
+      "f": "rakshasa_04_f_adult_b",
+      "m": "rakshasa_04_m_adult_b"
+    }
+  },
+  "ranky": {
+    "01": {
+      "f": "ranky_01_f_adult_gy",
+      "m": "ranky_01_m_adult_gy"
+    },
+    "02": {
+      "f": "ranky_02_f_adult_gy",
+      "m": "ranky_02_m_adult_gy"
+    },
+    "03": {
+      "f": "ranky_03_f_adult_bk",
+      "m": "ranky_03_m_adult_bk"
+    },
+    "04": {
+      "f": "ranky_04_f_adult_b",
+      "m": "ranky_04_m_adult_b"
+    },
+    "05": {
+      "f": "ranky_05_f_adult_bg",
+      "m": "ranky_05_m_adult_bg"
+    }
+  },
+  "redbulldragon": {
+    "01": {
+      "f": "redbulldragon_01_f_adult_r",
+      "m": "redbulldragon_01_m_adult_r"
+    }
+  },
+  "redtaabire": {
+    "01": {
+      "f": "redtaabire_01_f_adult_r",
+      "m": "redtaabire_01_m_adult_r"
+    }
+  },
+  "redwyvern": {
+    "01": {
+      "f": "redwyvern_01_f_adult_r",
+      "m": "redwyvern_01_m_adult_r"
+    }
+  },
+  "rekmall": {
+    "01": {
+      "f": "rekmall_01_f_adult_bk",
+      "m": "rekmall_01_m_adult_bk"
+    }
+  },
+  "remorseflorea": {
+    "01": {
+      "f": "remorseflorea_01_f_adult_bk",
+      "m": "remorseflorea_01_m_adult_bk"
+    }
+  },
+  "rock": {
+    "01": {
+      "f": "rock_01_f_adult_bk",
+      "m": "rock_01_m_adult_bk"
+    },
+    "02": {
+      "f": "rock_02_f_adult_pb",
+      "m": "rock_02_m_adult_pb"
+    }
+  },
+  "rosegold": {
+    "01": {
+      "f": "rosegold_01_f_adult_rp",
+      "m": "rosegold_01_m_adult_rp"
+    }
+  },
+  "rudeore": {
+    "01": {
+      "f": "rudeore_01_f_adult_bk",
+      "m": "rudeore_01_m_adult_bk"
+    },
+    "02": {
+      "f": "rudeore_02_f_adult_bk",
+      "m": "rudeore_02_m_adult_bk"
+    }
+  },
+  "rugar": {
+    "01": {
+      "f": "rugar_01_f_adult_pb",
+      "m": "rugar_01_m_adult_pb"
+    }
+  },
+  "rupia": {
+    "01": {
+      "f": "rupia_01_f_adult_bk",
+      "m": "rupia_01_m_adult_bk"
+    }
+  },
+  "rupo": {
+    "01": {
+      "f": "rupo_01_f_adult_pb",
+      "m": "rupo_01_m_adult_pb"
+    }
+  },
+  "rutilus": {
+    "01": {
+      "f": "rutilus_01_f_adult_yr",
+      "m": "rutilus_01_m_adult_yr"
+    }
+  },
+  "sand": {
+    "01": {
+      "f": "sand_01_f_adult_y",
+      "m": "sand_01_m_adult_y"
+    }
+  },
+  "scarlet": {
+    "01": {
+      "f": "scarlet_01_f_adult_r",
+      "m": "scarlet_01_m_adult_r"
+    }
+  },
+  "scorpiondragon": {
+    "01": {
+      "f": "scorpiondragon_01_f_adult_r",
+      "m": "scorpiondragon_01_m_adult_r"
+    }
+  },
+  "sealeddarknix": {
+    "01": {
+      "f": "sealeddarknix_01_f_adult_bk",
+      "m": "sealeddarknix_01_m_adult_bk"
+    }
+  },
+  "seere": {
+    "01": {
+      "f": "seere_01_f_adult_rp",
+      "m": "seere_01_m_adult_rp"
+    }
+  },
+  "serpentdragon": {
+    "01": {
+      "m": "serpentdragon_01_m_adult_g"
+    }
+  },
+  "serpentflower": {
+    "01": {
+      "f": "serpentflower_01_f_adult_r"
+    }
+  },
+  "shadow": {
+    "01": {
+      "m": "shadow_01_m_adult_bk"
+    }
+  },
+  "sharkgon": {
+    "01": {
+      "f": "sharkgon_01_f_adult_b",
+      "m": "sharkgon_01_m_adult_b"
+    },
+    "02": {
+      "f": "sharkgon_02_f_adult_b",
+      "m": "sharkgon_02_m_adult_b"
+    }
+  },
+  "sharptail": {
+    "01": {
+      "f": "sharptail_01_f_adult_yr",
+      "m": "sharptail_01_m_adult_yr"
+    }
+  },
+  "siamesedragon": {
+    "01": {
+      "f": "siamesedragon_01_f_adult_r",
+      "m": "siamesedragon_01_m_adult_r"
+    }
+  },
+  "sixleghorn": {
+    "01": {
+      "f": "sixleghorn_01_f_adult_y",
+      "m": "sixleghorn_01_m_adult_y"
+    },
+    "02": {
+      "f": "sixleghorn_02_f_adult_pb",
+      "m": "sixleghorn_02_m_adult_pb"
+    },
+    "03": {
+      "f": "sixleghorn_03_f_adult_rp",
+      "m": "sixleghorn_03_m_adult_rp"
+    }
+  },
+  "skelegon": {
+    "01": {
+      "f": "skelegon_01_f_adult_p",
+      "m": "skelegon_01_m_adult_p",
+      "n": "skelegon_01_n_adult_p"
+    }
+  },
+  "skinkdragon": {
+    "01": {
+      "f": "skinkdragon_01_f_adult_bk",
+      "m": "skinkdragon_01_m_adult_bk"
+    },
+    "02": {
+      "f": "skinkdragon_02_f_adult_w",
+      "m": "skinkdragon_02_m_adult_w"
+    },
+    "03": {
+      "f": "skinkdragon_03_f_adult_r",
+      "m": "skinkdragon_03_m_adult_r"
+    },
+    "04": {
+      "f": "skinkdragon_04_f_adult_bk",
+      "m": "skinkdragon_04_m_adult_bk"
+    }
+  },
+  "skoorum": {
+    "01": {
+      "f": "skoorum_01_f_adult_yr",
+      "m": "skoorum_01_m_adult_yr"
+    }
+  },
+  "skylancer": {
+    "01": {
+      "f": "skylancer_01_f_adult_w",
+      "m": "skylancer_01_m_adult_w"
+    }
+  },
+  "slimedragon": {
+    "01": {
+      "n": "slimedragon_01_n_adult_b"
+    },
+    "02": {
+      "n": "slimedragon_02_n_adult_yr"
+    },
+    "03": {
+      "n": "slimedragon_03_n_adult_rp"
+    }
+  },
+  "slosi": {
+    "01": {
+      "f": "slosi_01_f_adult_yr",
+      "m": "slosi_01_m_adult_yr"
+    }
+  },
+  "smart": {
+    "01": {
+      "m": "smart_01_m_adult_g"
+    }
+  },
+  "snowflowerpopomo": {
+    "01": {
+      "f": "snowflowerpopomo_01_f_adult_w",
+      "m": "snowflowerpopomo_01_m_adult_w"
+    }
+  },
+  "snowfrostdragon": {
+    "01": {
+      "f": "snowfrostdragon_01_f_adult_w",
+      "m": "snowfrostdragon_01_m_adult_w"
+    }
+  },
+  "solardragon": {
+    "01": {
+      "f": "solardragon_01_f_adult_y",
+      "m": "solardragon_01_m_adult_y"
+    }
+  },
+  "solucanis": {
+    "01": {
+      "f": "solucanis_01_f_adult_bk",
+      "m": "solucanis_01_m_adult_bk"
+    },
+    "02": {
+      "f": "solucanis_02_f_adult_bg",
+      "m": "solucanis_02_m_adult_bg"
+    },
+    "03": {
+      "f": "solucanis_03_f_adult_bk",
+      "m": "solucanis_03_m_adult_bk"
+    },
+    "04": {
+      "f": "solucanis_04_f_adult_bk",
+      "m": "solucanis_04_m_adult_bk"
+    }
+  },
+  "spicy": {
+    "01": {
+      "f": "spicy_01_f_adult_y",
+      "m": "spicy_01_m_adult_y",
+      "n": "spicy_01_n_adult_g"
+    }
+  },
+  "spike": {
+    "01": {
+      "f": "spike_01_f_adult_p",
+      "m": "spike_01_m_adult_p"
+    }
+  },
+  "spinedragon": {
+    "01": {
+      "f": "spinedragon_01_f_adult_yr",
+      "m": "spinedragon_01_m_adult_yr"
+    }
+  },
+  "splender": {
+    "01": {
+      "f": "splender_01_f_adult_bg",
+      "m": "splender_01_m_adult_bg"
+    },
+    "02": {
+      "f": "splender_02_f_adult_rp",
+      "m": "splender_02_m_adult_rp"
+    },
+    "03": {
+      "f": "splender_03_f_adult_bk",
+      "m": "splender_03_m_adult_bk"
+    }
+  },
+  "starace": {
+    "01": {
+      "f": "starace_01_f_adult_w",
+      "m": "starace_01_m_adult_w"
+    },
+    "02": {
+      "f": "starace_02_f_adult_bk",
+      "m": "starace_02_m_adult_bk"
+    }
+  },
+  "stealthdragon": {
+    "01": {
+      "f": "stealthdragon_01_f_adult_pb",
+      "m": "stealthdragon_01_m_adult_pb"
+    },
+    "02": {
+      "f": "stealthdragon_02_f_adult_pb",
+      "m": "stealthdragon_02_m_adult_pb"
+    },
+    "03": {
+      "f": "stealthdragon_03_f_adult_b",
+      "m": "stealthdragon_03_m_adult_b"
+    },
+    "04": {
+      "f": "stealthdragon_04_f_adult_y",
+      "m": "stealthdragon_04_m_adult_y"
+    },
+    "05": {
+      "f": "stealthdragon_05_f_adult_bk",
+      "m": "stealthdragon_05_m_adult_bk"
+    }
+  },
+  "stra": {
+    "01": {
+      "f": "stra_01_f_adult_b",
+      "m": "stra_01_m_adult_b"
+    }
+  },
+  "sullae": {
+    "01": {
+      "f": "sullae_01_f_adult_w",
+      "m": "sullae_01_m_adult_w"
+    }
+  },
+  "suradragon": {
+    "01": {
+      "f": "suradragon_01_f_adult_r",
+      "m": "suradragon_01_m_adult_r"
+    }
+  },
+  "surtr": {
+    "01": {
+      "f": "surtr_01_f_adult_r",
+      "m": "surtr_01_m_adult_r"
+    },
+    "02": {
+      "f": "surtr_02_f_adult_r",
+      "m": "surtr_02_m_adult_r"
+    },
+    "03": {
+      "f": "surtr_03_f_adult_p",
+      "m": "surtr_03_m_adult_p"
+    }
+  },
+  "swamp": {
+    "01": {
+      "f": "swamp_01_f_adult_g",
+      "m": "swamp_01_m_adult_g"
+    },
+    "02": {
+      "f": "swamp_02_f_adult_yr",
+      "m": "swamp_02_m_adult_yr"
+    }
+  },
+  "taabire": {
+    "01": {
+      "f": "taabire_01_f_adult_yr",
+      "m": "taabire_01_m_adult_yr"
+    }
+  },
+  "taros": {
+    "01": {
+      "f": "taros_01_f_adult_bk",
+      "m": "taros_01_m_adult_bk"
+    }
+  },
+  "tattoodragon": {
+    "01": {
+      "f": "tattoodragon_01_f_adult_w",
+      "m": "tattoodragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "tattoodragon_02_f_adult_bk",
+      "m": "tattoodragon_02_m_adult_bk"
+    },
+    "03": {
+      "f": "tattoodragon_03_f_adult_w",
+      "m": "tattoodragon_03_m_adult_w"
+    }
+  },
+  "taygeta": {
+    "01": {
+      "f": "taygeta_01_f_adult_b",
+      "m": "taygeta_01_m_adult_b"
+    }
+  },
+  "teddydragon": {
+    "01": {
+      "f": "teddydragon_01_f_adult_r",
+      "m": "teddydragon_01_m_adult_r"
+    },
+    "02": {
+      "f": "teddydragon_02_f_adult_g",
+      "m": "teddydragon_02_m_adult_g"
+    }
+  },
+  "tediblo": {
+    "01": {
+      "f": "tediblo_01_f_adult_r",
+      "m": "tediblo_01_m_adult_r"
+    }
+  },
+  "tilki": {
+    "01": {
+      "f": "tilki_01_f_adult_b",
+      "m": "tilki_01_m_adult_b"
+    }
+  },
+  "timber": {
+    "01": {
+      "n": "timber_01_n_adult_g"
+    }
+  },
+  "titan": {
+    "01": {
+      "f": "titan_01_f_adult_yr",
+      "m": "titan_01_m_adult_yr"
+    }
+  },
+  "totemdragon": {
+    "01": {
+      "f": "totemdragon_01_f_adult_w",
+      "m": "totemdragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "totemdragon_02_f_adult_bk",
+      "m": "totemdragon_02_m_adult_bk"
+    }
+  },
+  "trexdragon": {
+    "01": {
+      "f": "trexdragon_01_f_adult_yr",
+      "m": "trexdragon_01_m_adult_yr"
+    }
+  },
+  "tutankhagon": {
+    "01": {
+      "f": "tutankhagon_01_f_adult_y",
+      "m": "tutankhagon_01_m_adult_y"
+    }
+  },
+  "tycane": {
+    "01": {
+      "f": "tycane_01_f_adult_b",
+      "m": "tycane_01_m_adult_b"
+    }
+  },
+  "typhoondragon": {
+    "01": {
+      "f": "typhoondragon_01_f_adult_b",
+      "m": "typhoondragon_01_m_adult_b"
+    }
+  },
+  "undead": {
+    "fin": {
+      "n": "undead_fin_n_adult_w"
+    }
+  },
+  "underground": {
+    "01": {
+      "f": "underground_01_f_adult_g",
+      "m": "underground_01_m_adult_g"
+    }
+  },
+  "valefor": {
+    "01": {
+      "f": "valefor_01_f_adult_bk",
+      "m": "valefor_01_m_adult_bk"
+    }
+  },
+  "valla": {
+    "01": {
+      "f": "valla_01_f_adult_bg",
+      "m": "valla_01_m_adult_bg"
+    },
+    "02": {
+      "f": "valla_02_f_adult_y",
+      "m": "valla_02_m_adult_y"
+    }
+  },
+  "vargr": {
+    "01": {
+      "f": "vargr_01_f_adult_p",
+      "m": "vargr_01_m_adult_p"
+    }
+  },
+  "vefal": {
+    "01": {
+      "f": "vefal_01_f_adult_p",
+      "m": "vefal_01_m_adult_p"
+    }
+  },
+  "vegabond": {
+    "01": {
+      "f": "vegabond_01_f_adult_yr",
+      "m": "vegabond_01_m_adult_yr"
+    }
+  },
+  "vera": {
+    "01": {
+      "f": "vera_01_f_adult_p",
+      "m": "vera_01_m_adult_p"
+    }
+  },
+  "volcano": {
+    "01": {
+      "f": "volcano_01_f_adult_r",
+      "m": "volcano_01_m_adult_r"
+    }
+  },
+  "voncias": {
+    "01": {
+      "f": "voncias_01_f_adult_b",
+      "m": "voncias_01_m_adult_b"
+    }
+  },
+  "vonsharkgon": {
+    "01": {
+      "f": "vonsharkgon_01_f_adult_b",
+      "m": "vonsharkgon_01_m_adult_b"
+    }
+  },
+  "voodoodragon": {
+    "01": {
+      "f": "voodoodragon_01_f_adult_yr",
+      "m": "voodoodragon_01_m_adult_yr"
+    }
+  },
+  "water": {
+    "01": {
+      "f": "water_01_f_adult_b",
+      "m": "water_01_m_adult_b"
+    }
+  },
+  "whiteapple": {
+    "01": {
+      "f": "whiteapple_01_f_adult_w",
+      "m": "whiteapple_01_m_adult_w"
+    }
+  },
+  "whitedragon": {
+    "01": {
+      "f": "whitedragon_01_f_adult_w"
+    }
+  },
+  "whitegold": {
+    "01": {
+      "f": "whitegold_01_f_adult_w",
+      "m": "whitegold_01_m_adult_w"
+    }
+  },
+  "whitethunder": {
+    "01": {
+      "f": "whitethunder_01_f_adult_w",
+      "m": "whitethunder_01_m_adult_w"
+    }
+  },
+  "wind": {
+    "01": {
+      "f": "wind_01_f_adult_bg",
+      "m": "wind_01_m_adult_bg"
+    },
+    "02": {
+      "f": "wind_02_f_adult_bg"
+    },
+    "03": {
+      "f": "wind_03_f_adult_g"
+    }
+  },
+  "wings": {
+    "01": {
+      "f": "wings_01_f_adult_bk",
+      "m": "wings_01_m_adult_bk"
+    },
+    "02": {
+      "f": "wings_02_f_adult_bk",
+      "m": "wings_02_m_adult_bk"
+    }
+  },
+  "witchdragon": {
+    "01": {
+      "f": "witchdragon_01_f_adult_p",
+      "m": "witchdragon_01_m_adult_p"
+    }
+  },
+  "xmasdragon": {
+    "01": {
+      "f": "xmasdragon_01_f_adult_w",
+      "m": "xmasdragon_01_m_adult_w"
+    },
+    "02": {
+      "f": "xmasdragon_02_f_adult_pb",
+      "m": "xmasdragon_02_m_adult_pb"
+    }
+  },
+  "yurion": {
+    "01": {
+      "f": "yurion_01_f_adult_w",
+      "m": "yurion_01_m_adult_w"
+    }
+  },
+  "zephyros": {
+    "01": {
+      "f": "zephyros_01_f_adult_bk",
+      "m": "zephyros_01_m_adult_bk"
+    }
+  },
+  "zombiedragon": {
+    "01": {
+      "n": "zombiedragon_01_n_adult_g"
+    }
+  }
+}
