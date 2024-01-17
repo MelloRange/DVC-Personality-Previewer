@@ -95,8 +95,11 @@ body {
   position: relative;
   width: 60%;
   height: 35vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
 }
 
 .field {
@@ -226,5 +229,38 @@ body {
   color: #FFFFFF;
   white-space: nowrap;
 }
+
+.grouped {
+  width: 100vw;
+  height: 60vh;
+  justify-items: center;
+  display: flex;
+}
+
+.slateSelection{
+  width: 15%;
+  margin-left: 2%;
+}
+
+.radio {
+  /* width: 13%;
+  margin-right: 2%; */
+  height: 30vh;
+}
+
+.selectionItems{
+  width: 13%;
+  margin-right: 2%;
+  height: 100%;
+}
+
+.dragonSelect {
+  margin-top: 5%;
+}
+
+.personalitySelect{
+  margin-top: 5%;
+}
+
 
 
