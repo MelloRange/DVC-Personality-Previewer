@@ -1,7 +1,7 @@
 import {spine} from './spine-webgl'
 
 export class SpineObject {
-    constructor(spineUrl, initialAnimation) {
+    constructor(spineUrl, initialAnimation, spineScaler) {
         this.skeleton = null;
         this.animationState = null;
         this.binaryUrl = spineUrl + '.skel';
@@ -9,6 +9,7 @@ export class SpineObject {
         this.initialAnimation = initialAnimation;
         this.skeletonBinary = null;
         this.skeletonScale = null;
+        this.spineScaler = spineScaler;
     }
 
     loadAssets(canvas) {
@@ -54,6 +55,10 @@ export class SpineObject {
     }
 
     render(canvas) {
+        //console.log("meer");
+        
+        
+        //console.log(this.skeletonScale);
         let renderer = canvas.renderer;
         // Resize the viewport to the full canvas.
         renderer.resize(spine.ResizeMode.Expand);
@@ -69,31 +74,48 @@ export class SpineObject {
         renderer.end();
     }
 
-    applyProperScale() {
-        var isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i)
-        if (isMobile) {
-            if (window.devicePixelRatio <= 2) {
-                if (window.innerWidth < 500)
-                    this.skeletonScale = 1;
-                else if (window.innerWidth > 800)
-                    this.skeletonScale = 2;
-                else
-                    this.skeletonScale = 1.5;
-            }
-            else {
-                if (window.innerWidth < 300)
-                    this.skeletonScale = 1;
-                else
-                    this.skeletonScale = 1.5;
-            }
-        }
-        else {
-            this.skeletonScale = .6;
-        }
+    setScaler(canvas, scale) {
+        let assetManager = canvas.assetManager;
+        this.skeletonScale = scale;
+        this.spineScaler = scale;
+        this.skeletonBinary.scale = scale;
+        var skeletonData = this.skeletonBinary.readSkeletonData(assetManager.require(this.binaryUrl));
+        this.skeleton = new spine.Skeleton(skeletonData);
 
-        // console.log(navigator.userAgent)
-        // console.log(window.devicePixelRatio)
-        // console.log(window.innerWidth)
-        // console.log(this.skeletonScale)
+        // Create an AnimationState, and set the "run" animation in looping mode.
+        var animationStateData = new spine.AnimationStateData(skeletonData);
+        this.animationState = new spine.AnimationState(animationStateData);
+        if (this.initialAnimation && this.initialAnimation !== "")
+            this.animationState.setAnimation(0, this.initialAnimation, true);
+        //console.log("scale")
+    }
+
+    applyProperScale() {
+        this.skeletonScale = this.spineScaler;
+    //     var isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i)
+    //     if (isMobile) {
+    //         if (window.devicePixelRatio <= 2) {
+    //             if (window.innerWidth < 500)
+    //                 this.skeletonScale = 1;
+    //             else if (window.innerWidth > 800)
+    //                 this.skeletonScale = 2;
+    //             else
+    //                 this.skeletonScale = 1.5;
+    //         }
+    //         else {
+    //             if (window.innerWidth < 300)
+    //                 this.skeletonScale = 1;
+    //             else
+    //                 this.skeletonScale = 1.5;
+    //         }
+    //     }
+    //     else {
+    //         this.skeletonScale = .6;
+    //     }
+
+    //     // console.log(navigator.userAgent)
+    //     // console.log(window.devicePixelRatio)
+    //     // console.log(window.innerWidth)
+    //     // console.log(this.skeletonScale)
     }
 }

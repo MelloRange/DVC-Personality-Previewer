@@ -11,17 +11,23 @@ import { components } from "react-select"
 
 let auraOptions = Object.keys(auraList).sort().map((personality) => ({value: personality, label: personality}));
 let dragonOptions = Object.keys(dragonList).map((dragon) => ({value: dragon, label: dragon}));
-
+let common = new Common(1);
 export default function Home() {
   const [dragon, setDragon] = useState<string>("abaddon");
   const [aura, setAura] = useState<string>("Apocalyptic");
   const [form, setForm] = useState<string>("01");
   const [formOptions, setFormOptions] = useState<any>([{value: "01", label: "01"}, {value: "02", label: "02"}]); 
+  const [spineScaler, setSpineScaler] = useState<number>(1);
+  const [dimensions, setDimensions] = useState<any>({
+    width: undefined,
+    height: undefined,
+  });
+  const [showSlate, setShowSlate] = useState<boolean>(false);
 
   function onLoad()
   {
-    Common.applyProperStyle();
-    Common.preventContextMenu();
+    common.applyProperStyle();
+    common.preventContextMenu();
   }
 
   function loadSpineDragon() {
@@ -35,32 +41,53 @@ export default function Home() {
     {
       if(gender === "m")
       {
-        Common.setDragonSpineOrImage("/res/" + dragGenders["m"] + "/" + dragGenders["m"], "canvas-dragon-1");
+        common.setDragonSpineOrImage("/res/" + dragGenders["m"] + "/" + dragGenders["m"], "canvas-dragon-1");
+        //Common.setDragonSpineOrImage("/res/" + dragGenders["m"] + "/" + dragGenders["m"], "canvas-dragon-1");
         document.getElementById('dragonDisplay1')?.classList.remove("notShown");
       }
       else if(gender === "f")
       {
-        Common.setDragonSpineOrImage("/res/" + dragGenders["f"] + "/" + dragGenders["f"], "canvas-dragon-2");
+        common.setDragonSpineOrImage("/res/" + dragGenders["f"] + "/" + dragGenders["f"], "canvas-dragon-2");
+        //Common.setDragonSpineOrImage("/res/" + dragGenders["f"] + "/" + dragGenders["f"], "canvas-dragon-2");
         document.getElementById('dragonDisplay2')?.classList.remove("notShown");
       }
       else
       {
-        Common.setDragonSpineOrImage("/res/" + dragGenders["n"] + "/" + dragGenders["n"], "canvas-dragon-3");
+        common.setDragonSpineOrImage("/res/" + dragGenders["n"] + "/" + dragGenders["n"], "canvas-dragon-3");
+        //Common.setDragonSpineOrImage("/res/" + dragGenders["n"] + "/" + dragGenders["n"], "canvas-dragon-3");
         document.getElementById('dragonDisplay3')?.classList.remove("notShown");
       }
     }
   }
 
   function loadAuraDragon() {
-    Common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-1");
-    Common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-1");
+    common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-1");
+    common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-1");
 
-    Common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-2");
-    Common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-2");
+    common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-2");
+    common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-2");
 
-    Common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-3");
-    Common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-3");
+    common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-3");
+    common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-3");
   }
+
+  function handleSlateChange() {
+    if(showSlate)
+    {
+      document.getElementById('field1')?.classList.remove('hide');
+      document.getElementById('field2')?.classList.remove('hide');
+      document.getElementById('field3')?.classList.remove('hide');
+    }
+    else 
+    {
+      document.getElementById('field1')?.classList.add('hide');
+      document.getElementById('field2')?.classList.add('hide');
+      document.getElementById('field3')?.classList.add('hide');
+    }
+
+    setShowSlate(!showSlate);
+  };
+
 
   // const customStyles = {
   //   control: base => ({
@@ -71,14 +98,26 @@ export default function Home() {
   // };
 
   useEffect(() => {
-
-  }, [formOptions])
-
-  useEffect(() => {
+    // setDimensions({width: window.innerWidth, height: window.innerHeight});
+    // console.log(window.innerWidth);
+    // setSpineScaler(Math.floor(window.innerWidth / 500));
+    
+    
     onLoad();
-    loadSpineDragon();
-    loadAuraDragon();
     console.log("first load");
+
+    function handleResize(){
+    let num = Math.round(window.innerWidth / 50) / 10;
+    //console.log(Math.round(window.innerWidth / 50) / 10);
+    if(num < 2.5)
+      num = .5;
+    num = Math.min(num, 1);
+    common.resizeSpine(num);
+    }
+
+    window.addEventListener("resize", handleResize, false);
+
+    return () => window.removeEventListener("resize", handleResize);
   },[]);
 
   useEffect(() => {
@@ -111,7 +150,7 @@ export default function Home() {
           <div className='dragonCenter'>
             <div id='dragonDisplay1' className='fieldWrapper notShown'>
               <div className='dragonField flex-1'>
-                <img className='field' src="/imgs/field.png"  alt=""></img>
+                <img id='field1' className='field' src="/imgs/field.png"  alt=""></img>
                 <div className='dragonDot alignCenter'>
                   <canvas id="canvas-dragon-1" className="spineCanvas dragonCanvas"></canvas>
                   <canvas id="canvas-aura-back-1" className="spineCanvas auraBackCanvas"></canvas>
@@ -123,7 +162,7 @@ export default function Home() {
 
             <div id='dragonDisplay2' className='fieldWrapper notShown'>
               <div className='dragonField flex-1'>
-                <img className='field' src="/imgs/field.png"  alt=""></img>
+                <img id='field2' className='field' src="/imgs/field.png"  alt=""></img>
                 <div className='dragonDot alignCenter'>
                   <canvas id="canvas-dragon-2" className="spineCanvas dragonCanvas"></canvas>
                   <canvas id="canvas-aura-back-2" className="spineCanvas auraBackCanvas"></canvas>
@@ -135,7 +174,7 @@ export default function Home() {
 
             <div id='dragonDisplay3' className='fieldWrapper notShown'>
               <div className='dragonField flex-1'>
-                <img className='field' src="/imgs/field.png"  alt=""></img>
+                <img id='field3' className='field' src="/imgs/field.png"  alt=""></img>
                 <div className='dragonDot alignCenter'>
                   <canvas id="canvas-dragon-3" className="spineCanvas dragonCanvas"></canvas>
                   <canvas id="canvas-aura-back-3" className="spineCanvas auraBackCanvas"></canvas>
@@ -146,18 +185,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='selectionItems bg-white'>
-            <div className='radio bg-cyan-200 flex-col justify-evenly'>
-              {formOptions.map((form, index) => (
-                <RadioButton 
-                  key={index}
-                  label={form.value}
-                  changeFormFunction={() => setForm(form.value)}
-                />
-              ))  }
-            </div>
-            <div className='dragonSelect mb-40'>
-            
+          <div className='selectionItems'>
+            <div className='dragonSelect mb-32 text-white'>
+              <div className='text-center'>Dragon Selection</div>
               <Select options={dragonOptions}
                 onChange={(option) => {
                   setForm("01"); 
@@ -168,23 +198,47 @@ export default function Home() {
                 isSearchable
                 isClearable
                 captureMenuScroll
-                // maxMenuHeight={100}
+                maxMenuHeight={150}
+                
+                instanceId ="blob"
               />
-   
             </div>
-            <div className='personalitySelect'>
+            <div className='personalitySelect mb-32'>
+              <div className='text-center text-white'>Personality Selection</div>
               <Select options={auraOptions}
               onChange={(option) => {setAura(option?.value || "Apocalyptic");}}
               value={{value: aura, label: aura}}
               isSearchable
               isClearable
               captureMenuScroll
+              maxMenuHeight={150}
+              
+              instanceId = "blob3"
               />
+            </div>
+            <div className='radio flex-col justify-evenly bg-white'>
+              <div className='text-center'>Form Selection</div>
+              {formOptions.map((form, index) => (
+                <RadioButton 
+                  key={index}
+                  label={form.value}
+                  changeFormFunction={() => setForm(form.value)}
+                />
+              ))  }
             </div>
           </div>
               
         </div>
         
+        <div className="text-white flex align-center m-auto">
+          <input
+            type="checkbox"
+            checked={showSlate}
+            onChange={handleSlateChange}
+          />
+          <div className='m-2'>Remove Slate?</div>
+        </div>
+
         <div className="dragonNicknameContainer">
           <img className="alignCenter" src="/imgs/name.png" alt=""></img>
           <div className="alignCenter dragonNickname textHoverImage textSizeMedium">{aura + " " + dragon.charAt(0).toUpperCase() + dragon.slice(1)}</div>
