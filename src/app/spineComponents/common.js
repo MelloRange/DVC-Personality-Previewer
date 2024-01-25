@@ -20,7 +20,6 @@ export class Common {
         }
         if(this.auraFront !== null){
             this.auraFront.setScaler(this.auraFrontCanvas, this.spineScaler);
-            console.log("herm?")
         }
         if(this.auraBack !== null){
             this.auraBack.setScaler(this.auraBackCanvas, this.spineScaler);

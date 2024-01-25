@@ -112,6 +112,7 @@ body {
   left: 0;
   right: 0;
   max-height: 30vh;
+  /*max-width: 50vh;*/
 }
 
 .fieldWrapper{ /* spaces dragons out */

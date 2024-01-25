@@ -7,27 +7,31 @@ import auraList from './spineComponents/personality_dictionary_1.2.0.json' asser
 import dragonList from './spineComponents/dragondict.json' assert { type: 'json' };
 import Select from 'react-select'
 import RadioButton from './components/RadioButton/RadioButton'
-import { components } from "react-select"
 
 let auraOptions = Object.keys(auraList).sort().map((personality) => ({value: personality, label: personality}));
 let dragonOptions = Object.keys(dragonList).map((dragon) => ({value: dragon, label: dragon}));
-let common = new Common(1);
+let common1 = new Common(.5);
+let common2 = new Common(.5);
+let common3 = new Common(.5);
+
 export default function Home() {
   const [dragon, setDragon] = useState<string>("abaddon");
   const [aura, setAura] = useState<string>("Apocalyptic");
   const [form, setForm] = useState<string>("01");
   const [formOptions, setFormOptions] = useState<any>([{value: "01", label: "01"}, {value: "02", label: "02"}]); 
-  const [spineScaler, setSpineScaler] = useState<number>(1);
-  const [dimensions, setDimensions] = useState<any>({
-    width: undefined,
-    height: undefined,
-  });
+  const [ratio, setRatio] = useState<number>(.5);
   const [showSlate, setShowSlate] = useState<boolean>(false);
 
   function onLoad()
   {
-    common.applyProperStyle();
-    common.preventContextMenu();
+    common1.applyProperStyle();
+    common1.preventContextMenu();
+
+    common2.applyProperStyle();
+    common2.preventContextMenu();
+
+    common3.applyProperStyle();
+    common3.preventContextMenu();
   }
 
   function loadSpineDragon() {
@@ -41,19 +45,19 @@ export default function Home() {
     {
       if(gender === "m")
       {
-        common.setDragonSpineOrImage("/res/" + dragGenders["m"] + "/" + dragGenders["m"], "canvas-dragon-1");
+        common1.setDragonSpineOrImage("/res/" + dragGenders["m"] + "/" + dragGenders["m"], "canvas-dragon-1");
         //Common.setDragonSpineOrImage("/res/" + dragGenders["m"] + "/" + dragGenders["m"], "canvas-dragon-1");
         document.getElementById('dragonDisplay1')?.classList.remove("notShown");
       }
       else if(gender === "f")
       {
-        common.setDragonSpineOrImage("/res/" + dragGenders["f"] + "/" + dragGenders["f"], "canvas-dragon-2");
+        common2.setDragonSpineOrImage("/res/" + dragGenders["f"] + "/" + dragGenders["f"], "canvas-dragon-2");
         //Common.setDragonSpineOrImage("/res/" + dragGenders["f"] + "/" + dragGenders["f"], "canvas-dragon-2");
         document.getElementById('dragonDisplay2')?.classList.remove("notShown");
       }
       else
       {
-        common.setDragonSpineOrImage("/res/" + dragGenders["n"] + "/" + dragGenders["n"], "canvas-dragon-3");
+        common3.setDragonSpineOrImage("/res/" + dragGenders["n"] + "/" + dragGenders["n"], "canvas-dragon-3");
         //Common.setDragonSpineOrImage("/res/" + dragGenders["n"] + "/" + dragGenders["n"], "canvas-dragon-3");
         document.getElementById('dragonDisplay3')?.classList.remove("notShown");
       }
@@ -61,17 +65,17 @@ export default function Home() {
   }
 
   function loadAuraDragon() {
-    common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-1");
-    common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-1");
+    common1.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-1");
+    common1.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-1");
 
-    common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-2");
-    common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-2");
+    common2.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-2");
+    common2.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-2");
 
-    common.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-3");
-    common.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-3");
+    common3.setAuraFront("/res/aura/aura_front/aura_front", aura, "canvas-aura-front-3");
+    common3.setAuraBack("/res/aura/aura_back/aura_back", aura, "canvas-aura-back-3");
   }
 
-  function handleSlateChange() {
+  function handleSlateVis() {
     if(showSlate)
     {
       document.getElementById('field1')?.classList.remove('hide');
@@ -89,30 +93,27 @@ export default function Home() {
   };
 
 
-  // const customStyles = {
-  //   control: base => ({
-  //     ...base,
-  //     height: 35,
-  //     minHeight: 35
-  //   })
-  // };
-
   useEffect(() => {
-    // setDimensions({width: window.innerWidth, height: window.innerHeight});
-    // console.log(window.innerWidth);
-    // setSpineScaler(Math.floor(window.innerWidth / 500));
-    
-    
     onLoad();
     console.log("first load");
 
     function handleResize(){
-    let num = Math.round(window.innerWidth / 50) / 10;
-    //console.log(Math.round(window.innerWidth / 50) / 10);
-    if(num < 2.5)
-      num = .5;
-    num = Math.min(num, 1);
-    common.resizeSpine(num);
+      let newRatio = window.innerWidth / 1750;
+      newRatio = Math.round(newRatio * 100) / 100; 
+      if(newRatio < .3)
+        newRatio = .3;
+      newRatio = Math.min(newRatio, .5);
+
+      //console.log(newRatio);
+
+      if(newRatio !== ratio){
+        setRatio(newRatio);
+        common1.resizeSpine(newRatio);
+        common2.resizeSpine(newRatio);
+        common3.resizeSpine(newRatio);
+        document.getElementById('').setAttribute("style","display:block;width:500px");
+        document.getElementById('div_register').style.width='500px';
+      }
     }
 
     window.addEventListener("resize", handleResize, false);
@@ -234,7 +235,7 @@ export default function Home() {
           <input
             type="checkbox"
             checked={showSlate}
-            onChange={handleSlateChange}
+            onChange={handleSlateVis}
           />
           <div className='m-2'>Remove Slate?</div>
         </div>
