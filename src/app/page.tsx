@@ -6,13 +6,13 @@ import { useEffect, useState } from 'react';
 import auraList from './spineComponents/personality_dictionary_1.2.0.json' assert { type: 'json' };
 import dragonList from './spineComponents/dragondict.json' assert { type: 'json' };
 import Select from 'react-select'
-import RadioButton from './components/RadioButton/RadioButton'
+import RadioButton from './components/RadioButton/RadioButton';
 
 let auraOptions = Object.keys(auraList).sort().map((personality) => ({value: personality, label: personality}));
 let dragonOptions = Object.keys(dragonList).map((dragon) => ({value: dragon, label: dragon}));
-let common1 = new Common(.5);
-let common2 = new Common(.5);
-let common3 = new Common(.5);
+let common1 = new Common(1);
+let common2 = new Common(1);
+let common3 = new Common(1);
 
 export default function Home() {
   const [dragon, setDragon] = useState<string>("abaddon");
@@ -96,29 +96,11 @@ export default function Home() {
   useEffect(() => {
     onLoad();
     console.log("first load");
-
-    function handleResize(){
-      let newRatio = window.innerWidth / 1750;
-      newRatio = Math.round(newRatio * 100) / 100; 
-      if(newRatio < .3)
-        newRatio = .3;
-      newRatio = Math.min(newRatio, .5);
-
-      //console.log(newRatio);
-
-      if(newRatio !== ratio){
-        setRatio(newRatio);
-        common1.resizeSpine(newRatio);
-        common2.resizeSpine(newRatio);
-        common3.resizeSpine(newRatio);
-        document.getElementById('').setAttribute("style","display:block;width:500px");
-        document.getElementById('div_register').style.width='500px';
-      }
-    }
-
-    window.addEventListener("resize", handleResize, false);
-
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('resize', function(event) {
+      common1.resizeSpine(this.innerWidth, this.innerHeight);
+      //common2.resizeSpine(this.innerWidth, this.innerHeight);
+      //common3.resizeSpine(this.innerWidth, this.innerHeight);
+    }, true);
   },[]);
 
   useEffect(() => {

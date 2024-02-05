@@ -7133,7 +7133,7 @@ export var spine = (() => {
     color;
     /** Scales the entire skeleton on the X axis. This affects all bones, even if the bone's transform mode disallows scale
       * inheritance. */
-    scaleX = 1;
+    _scaleX = 1;
     /** Scales the entire skeleton on the Y axis. This affects all bones, even if the bone's transform mode disallows scale
       * inheritance. */
     _scaleY = 1;
@@ -7142,6 +7142,12 @@ export var spine = (() => {
     }
     set scaleY(scaleY) {
       this._scaleY = scaleY;
+    }
+    get scaleX() {
+      return this._scaleX
+    }
+    set scaleX(scaleX) {
+      this._scaleX = scaleX;
     }
     /** Sets the skeleton X position, which is added to the root bone worldX position. */
     x = 0;
@@ -7813,6 +7819,21 @@ export var spine = (() => {
       return null;
     }
     /** Finds a path constraint by comparing each path constraint's name. It is more efficient to cache the results of this method
+     * than to call it multiple times.
+     * @return May be null. */
+    findPathConstraint(constraintName) {
+      if (!constraintName)
+        throw new Error("constraintName cannot be null.");
+      let pathConstraints = this.pathConstraints;
+      for (let i = 0, n = pathConstraints.length; i < n; i++) {
+        let constraint = pathConstraints[i];
+        if (constraint.name == constraintName)
+          return constraint;
+      }
+      return null;
+    }
+
+      /** Finds a path constraint by comparing each path constraint's name. It is more efficient to cache the results of this method
      * than to call it multiple times.
      * @return May be null. */
     findPathConstraint(constraintName) {

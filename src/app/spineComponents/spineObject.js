@@ -33,8 +33,8 @@ export class SpineObject {
         this.skeletonBinary = skeletonBinary;
 
         // Set the scale to apply during parsing, parse the file, and create a new skeleton.
-        this.applyProperScale()
-        skeletonBinary.scale = this.skeletonScale;
+        
+        skeletonBinary.scale = this.spineScaler; //TODO match screen size
         var skeletonData = skeletonBinary.readSkeletonData(assetManager.require(this.binaryUrl));
         this.skeleton = new spine.Skeleton(skeletonData);
 
@@ -56,16 +56,12 @@ export class SpineObject {
 
     render(canvas) {
         //console.log("meer");
-        
-        
         //console.log(this.skeletonScale);
         let renderer = canvas.renderer;
         // Resize the viewport to the full canvas.
         renderer.resize(spine.ResizeMode.Expand);
-
         // Clear the canvas with a light gray color.
         canvas.clear(0, 0, 0, 0);
-
         // Begin rendering.
         renderer.begin();
         // Draw the skeleton
@@ -73,25 +69,10 @@ export class SpineObject {
         // Complete rendering.
         renderer.end();
     }
-
-    setScaler(canvas, scale) {
-        let assetManager = canvas.assetManager;
-        this.skeletonScale = scale;
-        this.spineScaler = scale;
-        this.skeletonBinary.scale = scale;
-        var skeletonData = this.skeletonBinary.readSkeletonData(assetManager.require(this.binaryUrl));
-        this.skeleton = new spine.Skeleton(skeletonData);
-
-        // Create an AnimationState, and set the "run" animation in looping mode.
-        var animationStateData = new spine.AnimationStateData(skeletonData);
-        this.animationState = new spine.AnimationState(animationStateData);
-        if (this.initialAnimation && this.initialAnimation !== "")
-            this.animationState.setAnimation(0, this.initialAnimation, true);
-        //console.log("scale")
-    }
-
-    applyProperScale() {
-        this.skeletonScale = this.spineScaler;
+    applyProperScale(newScale) {
+        this.skeleton.scaleY = newScale
+        this.skeleton.scaleX = newScale
+        this.skeleton.updateWorldTransformWith(this.skeleton);
     //     var isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i)
     //     if (isMobile) {
     //         if (window.devicePixelRatio <= 2) {

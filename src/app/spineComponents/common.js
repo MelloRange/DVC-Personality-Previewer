@@ -13,17 +13,11 @@ export class Common {
         this.auraBackCanvas = null;
     }
 
-    resizeSpine(newSpine){
-        this.spineScaler = newSpine;
-        if(this.dragon !== null){
-            this.dragon.setScaler(this.dragonCanvas, this.spineScaler);
-        }
-        if(this.auraFront !== null){
-            this.auraFront.setScaler(this.auraFrontCanvas, this.spineScaler);
-        }
-        if(this.auraBack !== null){
-            this.auraBack.setScaler(this.auraBackCanvas, this.spineScaler);
-        }
+    resizeSpine(width, height){
+        var scale = Math.min(width/1920, height/1080) //this is hardcoded to PC, change
+        this.dragon.applyProperScale(scale)
+        this.auraFront.applyProperScale(scale)
+        this.auraBack.applyProperScale(scale)
     }
 
     applyProperStyle() {
